@@ -1,0 +1,324 @@
+﻿@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content">
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-aqua">
+                        <div class="inner">
+                            <h3>1</h3>
+                            <p>Khách hàng</p>
+                            <div class="icon">
+                                <i class="ion ion-cash"></i>
+                            </div>
+                        </div>
+                        <a href="/Admin/ThongKe/DSKH" class="small-box-footer">Các khách hàng mua nhiều nhất</a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-green">
+                        <div class="inner">
+                            <h3>2</h3>
+                            <p>Sản phẩm</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                        </div>
+                        <a href="/Admin/ThongKe/DSSP" class="small-box-footer">Những sản phẩm bán chạy nhất</a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-yellow">
+                        <div class="inner">
+                            <h3>3</h3>
+                            <p>Nhân viên</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person"></i>
+                        </div>
+                        <a href="" class="small-box-footer" style="height:26px" "></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-red">
+                        <div class="inner">
+                            <h3>4</h3>
+                            <p>Nhà cung cấp</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-pie-graph"></i>
+                        </div>
+                        <a href="/Admin/ThongKe/" class="small-box-footer">Thống kê mua hàng & chi phí</a>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+            <!-- /.row -->
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box box-info">
+                        <div class="box-header with-border">
+                            <h3 class="fa fa-chart-bar"> Mua hàng & Chi Phí</h3>
+                            <div class="bread_crumb">
+                                <form action="/Admin/ThongKe/ChiPhi" method="post">
+                                    <label for="chooseyear">Chọn năm thống kê: </label>
+                                    <input type="number" id="chooseyear" name="y" min="2021" value="@ViewBag.Nam">
+                                    <input class="btn-success" type="submit" value="Xem thống kê">
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="box-footer">
+                            <div class="row">
+                                <div class="col-sm-4 col-xs-6">
+                                    <div class="description-block border-right">
+                                        <span class="description-text">Tổng doanh thu năm 2021</span>
+                                        <h5 class="description-header" style="color: #e90000;">
+                                            @if (ViewBag.TongDT != null)
+                                            {
+                                                @string.Format("{0:0,0 VNĐ}", ViewBag.TongDT)
+                                            }
+                                            else
+                                            {
+                                                @string.Format("{0:0,0 VNĐ}", 0)
+                                            }
+                                        </h5>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 1 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT2 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT1)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=1&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 2 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT2 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT2)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=2&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 3 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT3 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT3)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=3&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 4 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT4 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT4)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=4&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 5 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT5 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT5)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=5&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 6 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT6 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT6)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=6&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 7 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT7 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT7)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=7&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 8 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT8 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT8)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=8&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 9 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT9 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT9)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=9&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 10 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT10 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT10)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=10&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 11 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT11 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT11)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=11&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div><div class="col-sm-4 col-xs-6">
+                                <div class="description-block border-right" style="display: inline-flex;">
+                                    <span class="description-text">Doanh thu tháng 12 :  </span>
+                                    <h5 class="description-header" style="color: #e90000;padding-left: 10px;">
+                                        @if (ViewBag.DTT12 != null)
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", ViewBag.DTT12)
+                                        }
+                                        else
+                                        {
+                                            @string.Format("{0:0,0 VNĐ}", 0)
+                                        }
+                                    </h5>
+                                    <a class="btn btn-info btn-xs" href="/Admin/ThongKe/CTChiPhi?m=12&y=@ViewBag.Nam" role="button" style="margin-left: 5px; height: 20px;">
+                                        <span class="glyphicon glyphicon-eye-open"></span>Xem chi tiết
+                                    </a>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>            <!-- /.row -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+}

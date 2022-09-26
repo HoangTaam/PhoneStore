@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.NhapHang>
+@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-plus-sign"></i>Danh sách phiếu nhập
+            </h1>
+            <div class="breadcrumb">
+                <a class="btn btn-primary btn-sm" href="/Admin/NhapHang/EnterNhapHang" role="button">
+                    <span class="glyphicon glyphicon-plus"></span>Thêm mới
+                </a>
+            </div>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="row" style="padding:0px; margin:0px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">Mã phiếu nhập</th>
+                                                    <th class="text-center">Tổng tiền thanh toán</th>
+                                                    <th class="text-center">Ngày lập phiếu</th>
+                                                    <th class="text-center">Tình trạng thanh toán</th>
+                                                    <th class="text-center">Tên nhà cung cấp</th>
+                                                    <th class="text-center">Tên nhân viên</th>
+                                                    <th class="text-center" colspan="2">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                 {
+                                                 <tr>
+                                                    <td class="text-center">@item.MAPN</td>
+                                                    <td class="text-center">@item.TONGTIENTT</td>
+                                                    <td class="text-center">@item.NGAYLAPPN</td>
+                                                    <td>
+                                                        @{
+                                                            if (item.TINHTRANGTT == 0)
+                                                            {
+                                                                <span>Chưa thanh toán</span>
+                                                            }
+                                                            else
+                                                            {
+                                                                <span>Đã thanh toán</span>
+                                                            }
+                                                        }
+                                                    </td>
+                                                    <td class="text-center">@item.TENNCC</td>
+                                                    <td class="text-center">@item.TENNV</td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-info btn-xs" href="/Admin/NhapHang/ViewNhapHang?Id=@item.MAPN" role="button">
+                                                            <span class="glyphicon glyphicon-eye-open"></span>Xem
+                                                        </a>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-info btn-xs" href="/Admin/NhapHang/CTPN/?Id=@item.MAPN" role="button">
+                                                            <span class="glyphicon glyphicon-eye-open"></span>CTPN
+                                                        </a>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-danger btn-xs" href="/Admin/NhapHang/DeleteNhapHang?Id=@item.MAPN" onclick="return confirm('Xác nhận xóa phiếu này ?')" role="button">
+                                                            <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                        </a>
+                                                    </td>
+                                                 </tr>
+                                                 }
+                                            </tbody>
+                                        </table>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+}

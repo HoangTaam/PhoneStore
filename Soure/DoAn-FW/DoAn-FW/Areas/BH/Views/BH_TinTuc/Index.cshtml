@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.TinTuc>
+
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-book"></i>Danh sách bài viết
+            </h1>
+            <div class="breadcrumb">
+                <div class="searchbox">
+                    <input type="text" placeholder="Search here">
+                    <a><i class="fas fa-search-location"></i></a>
+                </div>
+                <a class="btn btn-primary btn-sm" href="/BH/BH_TinTuc/ThemTinTuc" role="button">
+                    <span class="glyphicon glyphicon-plus"></span>Thêm mới
+                </a>
+            </div>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="row" style="padding:0px; margin:0px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">ID</th>
+                                                    <th class="text-center" style="width:100px;">Hình</th>
+                                                    <th class="text-center">Tiêu đề bài viết</th>
+                                                    @*<th class="text-center">Link bài viết</th>
+                                                    <th class="text-center">Nội dung bài viết</th>*@
+                                                    <th class="text-center">Trạng thái</th>
+                                                    <th class="text-center" colspan="2">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td class="text-center">@item.matintuc</td>
+                                                        <td>
+                                                            <img src="@item.hinhbia" alt="">
+                                                        </td>
+                                                        <td> @item.tieude </td>
+                                                        @*<td> @item.link</td>
+                                                        <td> @item.noidung </td>*@
+                                                        @if(@item.trangthai == 1) {
+                                                            <td class="text-center">
+                                                                <a href="">
+                                                                    <span class="glyphicon glyphicon-ok-circle mauxanh18"></span>
+                                                                </a>
+                                                            </td>
+                                                        }
+                                                        else
+                                                        {
+                                                            <td class="text-center">
+                                                                <a href="">
+                                                                    <span class="glyphicon glyphicon-remove-circle maudau"></span>
+                                                                </a>
+                                                            </td>
+                                                         }
+                                                        <td class="text-center">
+                                                            <a class="btn btn-success btn-xs" href="/BH/BH_TinTuc/SuaTinTuc?id=@item.matintuc" role="button">
+                                                                <span class="glyphicon glyphicon-edit"></span>Sửa
+                                                            </a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-danger btn-xs" href="/BH/BH_TinTuc/Index?id=@item.matintuc" onclick="return confirm('Xác nhận xóa bài này ?')" role="button">
+                                                                <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <ul class="pagination">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+

@@ -1,0 +1,70 @@
+﻿
+@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-leaf"></i>Danh sách khuyến mãi
+            </h1>
+            @*<div class="breadcrumb">
+                <a class="btn btn-primary btn-sm" href="/BH/BH_KhuyenMai/EnterKhuyenMai" role="button">
+                    <span class="glyphicon glyphicon-plus"></span>Thêm mới
+                </a>
+            </div>*@
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="row" style="padding:0px; margin:0px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">Mã KM</th>
+                                                    <th class="text-center">Số % KM</th>
+                                                    <th class="text-center">Ngày bắt đầu</th>
+                                                    <th class="text-center">Ngày kết thúc</th>
+                                                    <th class="text-center">Tiền tối thiểu</th>
+                                                    @*<th class="text-center" colspan="2">Thao tác</th>*@
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model) {
+                                                 <tr>
+                                                    <td class="text-center">@item.MaKM</td>
+                                                    <td class="text-center">@item.SoPTKM</td>
+                                                    <td class="text-center">@item.TuNgay</td>
+                                                    <td class="text-center">@item.DenNgay</td>
+                                                    <td class="text-center">@item.TTienToiThieu</td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-success btn-xs" href="/BH/BH_KhuyenMai/ViewKhuyenMai?Id=@item.MaKM" role="button">
+                                                            <span class="glyphicon glyphicon-edit"></span>Xem
+                                                        </a>
+                                                    </td>
+                                                    @*<td class="text-center">
+                                                        <a class="btn btn-danger btn-xs" href="/BH/BH_KhuyenMai/DeleteKhuyenMai?Id=@item.MaKM" onclick="return confirm('Xác nhận xóa khuyến mãi này ?')" role="button">
+                                                            <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                        </a>
+                                                    </td>*@
+                                                </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <ul class="pagination">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+}

@@ -1,0 +1,202 @@
+﻿@using Web_projectframeword_admin.Models 
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quản trị hệ thống</title>
+    <link rel="icon" type="~/image/x-icon" href="~/img/iconu.png">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/AdminLTE.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/css/admin.css">
+    <meta property="fb:app_id" content="659513967881060">
+    <link rel="stylesheet" href="~/css/_all-skins.min.css">
+    <script src="~/js/loader.js"></script>
+    <script src="~/ckeditor/ckeditor.js"></script>
+</head>
+@{ 
+    NhanVien nv = new NhanVien();
+    if (ViewBag.NV != null)
+    {
+        nv = ViewBag.NV;
+    }
+    var SoHDCD = ViewBag.SoHDCD;
+    var SoGHCG = ViewBag.SoGHCG;
+    var Sum = Convert.ToInt32(SoHDCD) + Convert.ToInt32(SoGHCG);
+}
+<body class="skin-blue sidebar-mini">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/45/loader.js"></script>
+    <div class="wrapper">
+        <header class="main-header">
+            <a class="logo" href="/BH/BanHang/Index">
+                <span class="logo-lg">Quản trị hệ thống</span>
+            </a>
+            <nav class="navbar navbar-static-top" style="height: 50px">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="ic fa fa-bars"></i>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav" style="height: 52px; padding: 1px">
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-bell-o"></i>
+                                <span class="label label-warning">@Sum</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="/BH/BanHang/Index">
+                                                <i class="fa fa-users text-aqua"></i>
+                                                 @SoHDCD Đơn hàng chưa duyệt
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="/BH/BH_GiaoHang/Index">
+                                                <i class="fa fa-users text-aqua"></i>
+                                                @SoGHCG Đơn hàng đang giao
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="height: 52px">
+                            <a target="_blank" href="/Home/Index">
+                                <i class="fa fa-house-user"></i>
+                                <span>Website</span>
+                            </a>
+                        </li>
+                        <li class="dropdown user user-menu" style="height: 52px; padding: 0px">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="~/img/user-group.png" class="user-image" alt="User Image">
+                                <span class="hidden-xs">@nv.TenNV</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="user-header">
+                                    <img src="~/img/user-group.png" class="img-circle" alt="User Image">
+                                    <p>@nv.TenNV<small>@nv.SDT</small></p>
+                                </li>
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="/BH/BH_NhanVien/SuaNV?ID=@nv.MaNV" class="btn btn-default btn-flat">Chi tiết</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="/TaiKhoan/DangXuatNV" class="btn btn-default btn-flat">Đăng xuất</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <ul class="sidebar-menu">
+                    <li class="treeview">
+                        <a href="/BH/BH_ThongKe/Index">
+                            <i class="fa fa-chart-bar"></i>
+                            <span>Thống kê</span>
+                        </a>
+                    </li>
+                    <li class="header">QUẢN LÝ CỬA HÀNG</li>
+                    <li class="treeview">
+                        <a href="/BH/BH_TinTuc/Index">
+                            <i class="glyphicon glyphicon-list"></i><span>Tin tức</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="/BH/BH_SP/LietKeSanPham">
+                            <i class="fa fa-archive"></i><span>Sản phẩm</span>
+                        </a>
+                    </li>
+                    @*<li class="treeview">
+                        <a asp-controller="Kho" asp-action="Index">
+                            <i class="fa fa-store"></i><span>Kho</span>
+                        </a>
+                    </li>*@
+                    @*<li class="treeview">
+                        <a href="/Admin/NhaCungCap/Index">
+                            <i class="fa fa-handshake"></i><span>Nhà cung cấp</span>
+                        </a>
+                    </li>*@
+                    @*<li class="treeview">
+                        <a href="/Admin/NhapHang/Index">
+                            <i class="fa fa-shopping-cart"></i><span>Nhập hàng</span>
+                        </a>
+                    </li>*@
+                    <li class="header">QUẢN LÝ BÁN HÀNG</li>
+                    <li class="treeview">
+                        <a href="/BH/BH_KhuyenMai/LietKeKhuyenMai">
+                            <i class="fa fa-newspaper"></i> <span>Khuyến mãi</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="/BH/BH_HoTro/LietKeHoTro">
+                            <i class="fa fa-envelope"></i> <span>Bình luận</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="/BH/BH_HoaDon/Index">
+                            <i class="fa fa-calendar-check"></i> <span>Hóa đơn</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="/BH/BH_GiaoHang/Index">
+                            <i class="fas fa-shipping-fast"></i> <span>Giao hàng</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="/BH/BH_KhachHang/Index">
+                            <i class="fa fa-user"></i><span>Khách hàng</span>
+                        </a>
+                    </li>
+                    @*<li class="header">CÀI ĐẶT</li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="glyphicon glyphicon-cog"></i><span>Hệ thống</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-sort pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="active">
+                                <a href="/Admin/CauHinh/Index">
+                                    <i class="fa fa-cogs"></i> Cấu hình
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Admin/NhanVien/Index">
+                                    <i class="fa fa-users"></i> Nhân viên
+                                </a>
+                            </li>
+                        </ul>
+                    </li>*@
+                    <li><a href="/TaiKhoan/DangXuatNV"><i class="fa fa-sign-out-alt text-red"></i> <span>Thoát</span></a></li>
+                </ul>
+            </section>
+        </aside>
+        <!----------------  Content  ------------->
+        @RenderBody()
+
+    </div>
+    <!-- jQuery 2.2.3 -->
+    <script src="~/js/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="~/js/bootstrap.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/js/app.min.js"></script>
+    @RenderSection("Click_Kho", false)
+    @RenderSection("Click_CTPN", false)
+    @RenderSection("Click_CTHD", false)
+</body>
+</html>

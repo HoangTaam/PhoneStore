@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.HoaDon>
+@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-ok-sign"></i>Danh sách hóa đơn tháng @ViewBag.Thang năm @ViewBag.Nam
+            </h1>
+            <div class="breadcrumb">
+                <div class="searchbox">
+                    <input type="text" placeholder="Search here">
+                    <a><i class="fas fa-search-location"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="row" style="padding:0px; margin:0px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">Mã PN</th>
+                                                    <th>Nhà cung cấp</th>
+                                                    <th>Tổng tiền</th>
+                                                    <th>Ngày lập PN</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                             @if (Model.Count() > 0)
+                                            {
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td class="text-center">@item.MaHD</td>
+                                                        <td>@item.TenKH</td>
+                                                        <td>@string.Format("{0:0,0}", @item.TongTienTT) đ</td>
+                                                        <td>@item.NgayLapHD.ToString("dd-MM-yyyy")</td>
+                                                    </tr>
+
+                                                }
+                                            }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <ul class="pagination">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+}

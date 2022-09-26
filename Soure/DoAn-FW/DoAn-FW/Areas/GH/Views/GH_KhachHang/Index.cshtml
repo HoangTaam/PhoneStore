@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.KhachHang>
+@{ int pages = Convert.ToInt32(ViewData["pages"]); int p = Convert.ToInt32(ViewData["page"]);}
+<div class="content-wrapper" style="min-height: 639px;">
+    <section class="content-header">
+        <h1>
+            <i class="glyphicon glyphicon-user"></i>Danh sách khách hàng
+        </h1>
+        <div class="breadcrumb">
+            <form class="searchbox" action="/GH/GH_KhachHang/Index" method="get">
+                <input type="text" placeholder="Search here" name="ID">
+                <button type="submit" style="width: 50px; height: 25px; background-color: darkcyan; border-radius: 10px; color: white; border-color: white; ">
+                    <i class="fas fa-search-location"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+    <section class="content">
+        @{
+            if (Convert.ToString(ViewData["trangthai"]) == "Xóa không thành công")
+            {
+                <div class="row">
+                    <div class="alert alert-error">
+                        @ViewData["trangthai"]
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    </div>
+                </div>
+            }
+            if (Convert.ToString(ViewData["trangthai"]) == "Xóa thành công")
+            {
+                <div class="row">
+                    <div class="alert alert-success">
+                        @ViewData["trangthai"]
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    </div>
+                </div>
+            }
+        }
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box" id="view">
+                    <div class="box-header with-border">
+                        <div class="box-body">
+                            <div class="row" style="padding:0px; margin:0px;">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Mã KH</th>
+                                                <th>Tên khách hàng</th>
+                                                <th class="text-center">SĐT</th>
+                                                <th>Địa chỉ</th>
+                                                <th>Loại khách</th>
+                                                <th class="text-center" colspan="1">Thao tác</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int a = Convert.ToInt32(ViewData["ThongBao"]);
+                                                if (a == 1)
+                                                {
+                                                    <tr><td class="text-center" colspan="7">Không tìm thấy khách hàng nào!</td></tr>
+                                                }
+                                                else
+                                                {
+                                                    foreach (var item in Model)
+                                                    {
+                                                        <tr>
+                                                            <td class="text-center">@item.MaKH</td>
+                                                            <td>@item.TenKH</td>
+                                                            <td class="text-center">@item.SDT</td>
+                                                            <td>@item.DiaChi</td>
+                                                            <td>@item.LoaiKH</td>
+                                                            <td class="text-center">
+                                                                <a class="btn btn-info btn-xs" href="/GH/GH_KhachHang/XemKH?ID=@item.MaKH" role="button">
+                                                                    <span class="glyphicon glyphicon-eye-open"></span>Xem
+                                                                </a>
+                                                            </td>
+                                                            
+                                                        </tr>
+                                                    }
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="pull-right pagination">
+                    <form action="/GH/GH_KhachHang/Index" method="get">
+                        <input type="submit" value="Go to" /> page <input type="number" max="@pages" min="1" name="page" value="@p" /> of @pages
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

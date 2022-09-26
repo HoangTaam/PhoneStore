@@ -1,0 +1,184 @@
+﻿@{
+    ViewData["Title"] = "Trang Chủ";
+    List<object> ListSP = ViewBag.ListSP;
+}
+
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/Home/Index">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="/SanPham/DTDD">Điện thoại</a>
+                    </li>
+                    <li><a href="/SanPham/MayTinhBang">Máy tính bảng</a></li>
+                    <li><a href="/TinTuc/DanhSachTinTuc">Tin tức</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Trang chủ</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slider-area">
+    <!-- Slider -->
+    <div class="block-slider block-slider4">
+        <ul class="" id="bxslider-home4">
+            <li>
+                <img src="~/img/h4-slide.png" alt="Slide" />
+                <div class="caption-group">
+                    <h2 class="caption title">
+                        iPhone
+                        <span class="primary">6 <strong>Plus</strong></span>
+                    </h2>
+                    <h4 class="caption subtitle">Dual SIM</h4>
+                    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+                </div>
+            </li>
+            <li>
+                <img src="~/img/h4-slide2.png" alt="Slide" />
+                <div class="caption-group">
+                    <h2 class="caption title">
+                        by one, get one
+                        <span class="primary">50% <strong>off</strong></span>
+                    </h2>
+                    <h4 class="caption subtitle">
+                        school supplies & backpacks.*
+                    </h4>
+                    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+                </div>
+            </li>
+            <li>
+                <img src="~/img/h4-slide3.png" alt="Slide" />
+                <div class="caption-group">
+                    <h2 class="caption title">
+                        Apple
+                        <span class="primary">Store <strong>Ipod</strong></span>
+                    </h2>
+                    <h4 class="caption subtitle">Select Item</h4>
+                    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+                </div>
+            </li>
+            <li>
+                <img src="~/img/h4-slide4.png" alt="Slide" />
+                <div class="caption-group">
+                    <h2 class="caption title">
+                        Apple
+                        <span class="primary">Store <strong>Ipod</strong></span>
+                    </h2>
+                    <h4 class="caption subtitle">& Phone</h4>
+                    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- End slider area -->
+<div class="maincontent-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="latest-product">
+                    <h2 class="section-title">Sản phẩm mới nhất</h2>
+                    <div class="product-carousel">
+                        @foreach (var item in ListSP)
+                        {
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="@item.GetType().GetProperty("HinhAnh").GetValue(item,null).ToString()" alt="" />
+                                    <div class="product-hover">
+                                        <a href="/GioHang/InsertCart3?id=@item.GetType().GetProperty("MaTTSP").GetValue(item,null).ToString()" class="add-to-cart-link">
+                                            <i class="fa fa-shopping-cart"></i>
+                                            Thêm vào giỏ
+                                        </a>
+                                        <a href="/SanPham/ChiTietSP?t=@item.GetType().GetProperty("MaTTSP").GetValue(item,null).ToString()&l=@item.GetType().GetProperty("MaLoaiSP").GetValue(item,null).ToString()"
+                                           class="view-details-link">
+                                            <i class="fa fa-link"></i> Xem
+                                            chi tiết
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <h2>
+                                    <a href="/SanPham/ChiTietSP?t=@item.GetType().GetProperty("MaTTSP").GetValue(item,null).ToString()&l=@item.GetType().GetProperty("MaLoaiSP").GetValue(item,null).ToString()">
+                                        <p>
+                                            @item.GetType().GetProperty("TenSP").GetValue(item, null).ToString()
+                                        </p>
+                                        @item.GetType().GetProperty("MauSac").GetValue(item, null).ToString()-
+                                        @item.GetType().GetProperty("Ram").GetValue(item, null).ToString()GB-
+                                        @item.GetType().GetProperty("BoNhoTrong").GetValue(item, null).ToString()GB
+                                    </a>
+                                </h2>
+
+                                <div class="product-carousel-price">
+                                    @if (int.Parse(item.GetType().GetProperty("GiaKM").GetValue(item, null).ToString()) > 0)
+                                    {
+                                        <del>@string.Format("{0:0,0 đ}", item.GetType().GetProperty("Gia").GetValue(item, null))</del>
+                                        <br />
+                                        <ins>@string.Format("{0:0,0 đ}", item.GetType().GetProperty("GiaKM").GetValue(item, null))</ins>
+                                    }
+                                    else
+                                    {
+                                        <ins>@string.Format("{0:0,0 đ}", item.GetType().GetProperty("Gia").GetValue(item, null))</ins>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End main content area -->
+
+<div class="brands-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title" style="color: black">
+                    Danh sách các hãng
+                </h2>
+                <div class="brand-wrapper">
+                    <div class="brand-list">
+                        <img src="~/img/brand1.png" alt="" />
+                        <img src="~/img/brand2.png" alt="" />
+                        <img src="~/img/brand3.png" alt="" />
+                        <img src="~/img/brand4.png" alt="" />
+                        <img src="~/img/brand5.png" alt="" />
+                        <img src="~/img/brand6.png" alt="" />
+                        <img src="~/img/brand1.png" alt="" />
+                        <img src="~/img/brand2.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

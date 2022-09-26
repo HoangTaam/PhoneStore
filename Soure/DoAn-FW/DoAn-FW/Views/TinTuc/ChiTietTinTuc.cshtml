@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Tin tức";
+}
+@model List<DoAn_FW.Models.TinTuc>
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Home/Index">Trang chủ</a></li>
+                    <li>
+                        <a href="/SanPham/DTDD">Điện thoại</a>
+                    </li>
+                    <li><a href="/SanPham/MayTinhBang">Máy tính bảng</a></li>
+                    <li class="active">
+                        <a href="/TinTuc/DanhSachTinTuc">Tin tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Tiêu đề bài viết</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page title area -->
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        @foreach (var tintuc in Model)
+        {
+            <p>
+                @tintuc.NoiDung
+            </p>
+            <a href ="@tintuc.Link">Nguồn nội dung</a>
+        }
+    </div>
+</div>

@@ -1,0 +1,261 @@
+﻿@{
+    ViewData["Title"] = "Sản phẩm ";
+    List<object> Model = ViewData["list"] as List<object>;
+    List<LoaiSP> ModelLoaiSP = ViewData["ListLoaiSP"] as List<LoaiSP>;
+    List<object> ModelHang = ViewData["ListHang"] as List<object>;
+    Pager pager = new Pager();
+
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Home/Index">Trang chủ</a></li>
+                    <li class="active">
+                        <a href="/SanPham/DanhSachSP">Sản phẩm</a>
+                    </li>
+                    <li><a href="/TinTuc/DanhSachTinTuc">Tin tức</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Danh sách sản phẩm</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Danh mục</h2>
+                    <div class="panel-group category-products"
+                         id="accordian">
+                        <!--category-productsr-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse"
+                                       data-parent="#accordian"
+                                       href="#LoaiSP">
+                                        <span class="badge pull-right">
+                                            <i class="fa fa-plus"></i>
+                                        </span>
+                                        Loại sản phẩm
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="LoaiSP"
+                                 class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="/SanPham/DTDD">Điện thoại</a></li>
+                                        <li><a href="/SanPham/MayTinhBang">Máy tính bảng</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse"
+                                       data-parent="#accordian"
+                                       href="#ram">
+                                        <span class="badge pull-right">
+                                            <i class="fa fa-plus"></i>
+                                        </span>
+                                        Ram
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="ram"
+                                 class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="">1 GB</a></li>
+                                        <li><a href="">2 GB</a></li>
+                                        <li><a href="">4 GB</a></li>
+                                        <li><a href="">6 GB</a></li>
+                                        <li><a href="">8 GB</a></li>
+                                        <li><a href="">12 GB</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse"
+                                       data-parent="#accordian"
+                                       href="#bonhotrong">
+                                        <span class="badge pull-right">
+                                            <i class="fa fa-plus"></i>
+                                        </span>
+                                        Bộ nhớ trong
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="bonhotrong"
+                                 class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="">8 GB</a></li>
+                                        <li><a href="">16 GB</a></li>
+                                        <li>
+                                            <a href="">32 GB</a>
+                                        </li>
+                                        <li><a href="">64 GB</a></li>
+                                        <li><a href="">128 GB</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse"
+                                       data-parent="#accordian"
+                                       href="#manhinh">
+                                        <span class="badge pull-right">
+                                            <i class="fa fa-plus"></i>
+                                        </span>
+                                        Màn hình
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="manhinh"
+                                 class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href=""> Dưới 6 inch</a></li>
+                                        <li><a href=""> Trên 6 inch</a></li>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!--/category-productsr-->
+
+                    <div class="brands_products">
+                        <!--brands_products-->
+                        <h2>Hãng</h2>
+                        <div class="brands-name">
+                            <ul class="nav nav-pills nav-stacked">
+                                @foreach (var hang in ModelHang)
+                                {
+                                    <li>
+                                        <a href="">
+                                            <span class="pull-right">
+                                                (@hang.GetType().GetProperty("SL").GetValue(hang, null).ToString())
+                                            </span>
+                                            @hang.GetType().GetProperty("TenTH").GetValue(hang, null).ToString()
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="shipping text-center">
+                        <img src="~/images/home/shipping.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 padding-right">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="@item.GetType().GetProperty("Hinhanh").GetValue(item, null).ToString()" alt="" />
+                            </div>
+                            <h2>
+                                <a href="">@item.GetType().GetProperty("Tensp").GetValue(item, null).ToString()</a>
+                            </h2>
+                            <div class="product-carousel-price">
+                                @if (int.Parse(item.GetType().GetProperty("GiaKM").GetValue(item, null).ToString()) > 0)
+                                {
+                                    <del>@item.GetType().GetProperty("Gia").GetValue(item, null) đ</del>
+                                    <br />
+                                    <ins>@item.GetType().GetProperty("GiaKM").GetValue(item, null) đ</ins>
+                                }
+                                else
+                                {
+                                    <ins>@item.GetType().GetProperty("Gia").GetValue(item, null) đ</ins>
+                                }
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button"
+                                   data-quantity="1"
+                                   data-product_sku=""
+                                   data-product_id="70"
+                                   rel="nofollow"
+                                   href="/SanPham/ChiTietSP">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-pagination text-center">
+                    <nav>
+                        @if (pager.TotalPages > 0)
+                        {
+                            <ul class="pagination">
+                                <li>
+                                    <a href="/SanPham/DanhSachSP?pg=@(pager.CurrentPage-1)" asp- aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++)
+                                {
+                                    <li class="page-item @(pge == pager.CurrentPage ? "active" : "")">
+                                        <a class="page-link" asp-controller="SanPham" asp-action="DanhSachSP" asp-route-pg="@pge">@pge</a>
+                                    </li>
+                                }
+                                <li>
+                                    <a href="/SanPham/DanhSachSP?pg=@(pager.CurrentPage+1)" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        }
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

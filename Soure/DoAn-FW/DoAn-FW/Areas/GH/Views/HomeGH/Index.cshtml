@@ -1,0 +1,127 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.GiaoHang>
+@{ int pages = Convert.ToInt32(ViewData["pages"]); int p = Convert.ToInt32(ViewData["page"]);}
+<div class="content-wrapper" style="min-height: 639px;">
+    <section class="content-header">
+        <h1><i class="glyphicon glyphicon-shopping-cart"></i> Giao hàng</h1>
+        <div class="breadcrumb">
+            <form class="searchbox" action="/GH/HomeGH/Index" method="get">
+                <input type="text" placeholder="Search here" name="Search">
+                <button type="submit" style="width: 50px; height: 25px; background-color: darkcyan; border-radius: 10px; color: white; border-color: white; "><i class="fas fa-search-location"></i></button>
+            </form>
+        </div>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        @{
+            if (Convert.ToString(ViewData["trangthai"]) == "Xóa không thành công")
+            {
+                <div class="row">
+                    <div class="alert alert-error">
+                        @ViewData["trangthai"]
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    </div>
+                </div>
+            }
+            if (Convert.ToString(ViewData["trangthai"]) == "Xóa thành công")
+            {
+                <div class="row">
+                    <div class="alert alert-success">
+                        @ViewData["trangthai"]
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    </div>
+                </div>
+            }
+        }
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box" id="view">
+                    <div class="box-body">
+                        <div class="row" style="padding:0px; margin:0px;">
+                            <div class="table-responsive">
+                                <table class="table table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">Mã hóa đơn</th>
+                                            <th>Địa chỉ nhận hàng</th>
+                                            <th>NV giao hàng</th>
+                                            <th class="text-center">SĐT nhân viên</th>
+                                            <th class="text-center">Giao hàng</th>
+                                            <th class="text-center">Thao tác</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            int a = Convert.ToInt32(ViewData["ThongBao"]);
+                                            if (a == 1)
+                                            {
+                                                <tr><td class="text-center" colspan="9">Không tìm thấy phiếu giao hàng nào!</td></tr>
+                                            }
+                                            else
+                                            {
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td class="text-center">@item.MaHD</td>
+                                                        <td>@item.DiaChiGH</td>
+                                                        <td>@item.TenNV</td>
+                                                        <td class="text-center">@item.SDT</td>
+                                                        <td class="text-center">
+                                                            @if (item.TinhTrangGH == 0)
+                                                            {
+                                                                <form action="/GH/HomeGH/HoanThanhGH" method="get">
+                                                                    <input type="hidden" name="MaHD" value="@item.MaHD" />
+                                                                    <input type="hidden" name="MaNV" value="@item.MaNV" />
+                                                                    <input type="hidden" name="page" value="@p" />
+                                                                    <input type="hidden" name="STN" id="stn" />
+                                                                    <button class="btn btn-success btn-xs" onclick="FunctionPrompt()">
+                                                                        <span class="glyphicon glyphicon-ok"></span>Hoàn thành
+                                                                    </button>
+                                                                </form>
+
+                                                            }
+                                                            else
+                                                            {
+                                                                <span>Đã giao</span>
+                                                            }
+                                                        </td>
+                                                        <td class="text-center">
+                                                            @{var t = (Model.Count() == 1) ? (p - 1) : p;}
+                                                            <a class="btn btn-danger btn-xs" href="/GH/HomeGH/Delete?MAHD=@item.MaHD&MANV=@item.MaNV&page=@t" onclick="return confirm('Xác nhận xóa phiếu giao hàng này ?')" role="button">
+                                                                <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                }
+
+                                            }
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <script type="text/javascript">
+                                function FunctionPrompt() {
+                                    var result = prompt("Nhập số tiền nhận:");
+                                    if (result != null) {
+                                        document.getElementById("stn").value = result;
+                                    }
+                                }
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="pull-right pagination">
+                    <form action="/GH/HomeGH/Index" method="get">
+                        <input type="submit" value="Go to" /> page <input type="number" max="@pages" min="1" name="page" value="@p" /> of @pages
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

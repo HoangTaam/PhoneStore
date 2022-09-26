@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.SanPham>
+@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-phone"></i>Danh sách sản phẩm
+            </h1>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="row" style="padding:0px; margin:0px; height: 1000px;">
+                                    <div class="table-responsive">
+                                        @if (Model.Any())
+                                         { 
+                                         <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center" style="width:70px">Mã TTSP</th>
+                                                    <th>Tên sản phẩm</th>
+                                                    <th>Hình ảnh</th>
+                                                    <th>Loại sản phẩm</th>
+                                                    <th>Thương hiệu</th>
+                                                    <th>Số lượng</th>
+                                                    <th class="text-center" colspan="2">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td class="text-center">@item.MATTSP</td>
+                                                        <td style="font-size: 16px;">@item.TENSP</td>
+                                                        <td style="width:120px">
+                                                            <img src="@item.HINHANH" alt="Điện thoại Iphone 13 ProMax" class="img-responsive">
+                                                        </td>
+                                                        <td>@item.MALOAISP</td>
+                                                        <td>@item.MATH</td>
+                                                        <td>@item.SOLUONG</td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-success btn-xs" href="/BH/BH_SP/ViewSanPham?Id=@item.MATTSP" role="button">
+                                                                <span class="glyphicon glyphicon-edit"></span>Sửa
+                                                            </a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-danger btn-xs" href="/BH/BH_SP/DeleteSanPham?Id=@item.MATTSP" Sonclick="return confirm('Xác nhận xóa sản phẩm này ?')" role="button">
+                                                                <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                         </table>
+                                        }
+                                        else
+                                        {
+                                            <p>Không tìm thấy sản phẩm</p>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+}

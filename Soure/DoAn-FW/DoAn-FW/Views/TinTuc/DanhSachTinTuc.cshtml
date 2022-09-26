@@ -1,0 +1,113 @@
+﻿@model IEnumerable<DoAn_FW.Models.TinTuc>
+@{
+    ViewData["Title"] = "Tin tức";
+
+    Pager pager = new Pager();
+
+    int pageNo = 0;
+    if(ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage; 
+    }
+}
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Home/Index">Trang chủ</a></li>
+                    <li>
+                        <a href="/SanPham/DTDD">Điện thoại</a>
+                    </li>
+                    <li><a href="/SanPham/MayTinhBang">Máy tính bảng</a></li>
+                    <li class="active">
+                        <a href="/TinTuc/DanhSachTinTuc">Tin tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Tiêu đề bài viết</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page title area -->
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            @foreach (var tintuc in Model)
+            {
+                @if (@tintuc.TrangThai == 1)
+                {
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="@tintuc.HinhBia"
+                                 alt="@tintuc.HinhBia" />
+                            <div class="caption">
+                                <h3>@tintuc.TieuDe</h3>
+                                <p>
+                                    @tintuc.TieuDe
+                                </p>
+                                <p>
+                                    <a href="~/TinTuc/ChiTietTinTuc?Id= @tintuc.MaTinTuc"
+                                       class="btn btn-primary"
+                                       role="button">Xem ngay</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-pagination text-center">
+                    @if(pager.TotalPages > 0)
+                     {
+                    <ul class="pagination">
+                        <li>
+                            <a href="/TinTuc/DanhSachTinTuc?pg=@(pager.CurrentPage-1)" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++)
+                        {
+                            <li class="page-item @(pge == pager.CurrentPage ? "active" : "")">
+                                <a class="page-link" asp-controller="TinTuc" asp-action="DanhSachTinTuc" asp-route-pg="@pge">@pge</a>
+                            </li>
+                        }
+                        <li>
+                            <a href="/TinTuc/DanhSachTinTuc?pg=@(pager.CurrentPage+1)" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                     }
+                </div>
+        </div>
+    </div>
+</div>

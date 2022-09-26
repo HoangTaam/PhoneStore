@@ -1,0 +1,111 @@
+﻿@section Click_CTPN{
+    <script type="text/javascript">
+        $(function () {
+            $('#tbl_ctpn tr').click(function (e) {
+                var masp = $(this).closest('.onRow').find('td:nth-child(1)').text();
+                var gianhap = $(this).closest('.onRow').find('td:nth-child(3)').text();
+                var sl = $(this).closest('.onRow').find('td:nth-child(4)').text();
+                $('#spSL').val(masp);
+                $('#gn').val(gianhap);
+                $('#slIP').val(sl);
+            });
+        });
+    </script>
+}
+@model IEnumerable<Web_projectframeword_admin.Models.CTPN>
+<div class="content-wrapper" style="min-height: 639px;">
+    <form action="/Admin/NhapHang/InsertCTPN" method="get">
+        <section class="content-header">
+            <h1><i class="glyphicon glyphicon-ok-sign"></i>Chi tiết phiếu nhập</h1>
+            <div class="breadcrumb">
+                <a class="btn btn-primary btn-sm" href="/Admin/NhapHang/LietKeNhapHang" role="button">
+                    <span class="glyphicon glyphicon-floppy-save"></span>Lưu
+                </a>
+            </div>
+        </section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box" id="view">
+                    <div class="box-body">
+                        <div class="col-md-12" style="border-right:ridge">
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label>Mã sản phẩm</label>
+                                    <input type="hidden" class="form-control" name="MAPN" min="0" step="1" style="width: 100%; margin-bottom: 10px;" value="@ViewData["mapn"]">
+                                    <input type="number" class="form-control" id="spSL" name="MATTSP" min="0" step="1" style="width: 100%; margin-bottom: 10px;" value="0">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Số lượng</label>
+                                    <input type="number" class="form-control" id="slIP" name="SOLUONG" min="0" step="1" style="width:100%; margin-bottom: 10px;" value="0">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Sản phẩm</label>
+                                    <select class="form-group" style="width:100%" onchange="return LoadMASP(this)">
+                                        <option value="">[----Xem danh sách sản phẩm----]</option>
+                                        @foreach (var item in ViewBag.DSSP)
+                                        {
+                                            <option value="@item.MATTSP">@item.MATTSP - @item.TENSP</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Giá nhập</label>
+                                    <input type="number" class="form-control" id="gn" name="GIANHAP" min="0" step="1" style="width:100%; margin-bottom: 10px;" value="0">
+                                </div>
+
+                                <div class="col-md-12" style="padding-right: 0px; padding-top: 10px;">
+                                    <button class="btn btn-primary btn-sm">
+                                        <span class="glyphicon glyphicon-plus"></span>Thêm
+                                    </button>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row" style="padding:0px; margin:0px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered" id="tbl_ctpn">
+                                            <thead>
+                                                <tr class="onRow">
+                                                    <th class="text-center">Mã TTSP</th>
+                                                    <th class="text-center">Tên sản phẩm</th>
+                                                    <th class="text-center">Giá nhập</th>
+                                                    <th class="text-center">Số lượng</th>
+                                                    <th class="text-center">Thành Tiền</th>
+                                                    <th class="text-center">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr class="onRow">
+
+                                                        <td class="text-center">@item.MATTSP</td>
+                                                        <td class="text-center">@item.TENSP</td>
+                                                        <td class="text-center">@item.GIANHAP</td>
+                                                        <td class="text-center">@item.SOLUONG</td>
+                                                        <td class="text-center">@item.THANHTIEN</td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-danger btn-xs" href="/Admin/NhapHang/DeleteCTPN?MAPN=@item.MAPN&MASP=@item.MATTSP" onclick="return confirm('Xác nhận xóa ?')" role="button">
+                                                                <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>
+</div>
+<script type="text/javascript">
+    function LoadMASP(obj) {
+        var masp = obj.value;
+        document.getElementById("spSL").value = masp;
+    }
+</script>

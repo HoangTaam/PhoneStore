@@ -1,0 +1,396 @@
+﻿
+@using Web_projectframeword_admin.Models;
+@model SanPham
+@{
+    List<LoaiSanPham> ListLoaiSP = new List<LoaiSanPham>();
+    ListLoaiSP = ViewBag.DSLSP as List<LoaiSanPham>;
+    List<ThuongHieu> ListTH = new List<ThuongHieu>();
+    ListTH = ViewBag.DSTH as List<ThuongHieu>;
+}
+
+
+<div class="content-wrapper" style="min-height: 639px;">
+    <form action="/TT/TT_SanPham/UpdateSanPham" method="post">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-phone"></i>Cập nhật sản phẩm
+            </h1>
+            <div class="breadcrumb">
+                <a class="btn btn-primary btn-sm" href="/TT/TT_SanPham/LietKeSanPham" role="button">
+                    <span class="glyphicon glyphicon-remove do_nos"></span>Thoát
+                </a>
+            </div>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="col-md-8" style="border-right: ridge;">
+                                    <div class="form-group">
+
+                                        <label for="tenSP">Tên sản phẩm</label>
+                                        <input type="text" class="form-control" name="TENSP" style="width:100%" placeholder="Tên sản phẩm" value="@Model.TENSP">
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+                                                    <Label for="maloaiSP">Loại sản phẩm</Label>
+                                                    <select name="MALOAISP" class="form-control">
+                                                        @{
+                                                            if (Model.MALOAISP == 1)
+                                                            {
+                                                                <option value="MALOAISP">[--Chọn loại sản phẩm--]</option>
+                                                                <option value="1" selected>Điện thoại</option>
+                                                                <option value="2">Máy tính bảng</option>
+                                                            }
+                                                            else
+                                                            {
+                                                                <option value="MALOAISP">[--Chọn loại sản phẩm--]</option>
+                                                                <option value="1">Điện thoại</option>
+                                                                <option value="2" selected>Máy tính bảng</option>
+                                                            }
+                                                        }
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+                                                <div class="form-group">
+                                                    <Label>Thương hiệu</Label>
+                                                    <select name="MATH" class="form-control">
+                                                        @{
+                                                            if (Model.MATH == 1)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1" selected>Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 2)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2" selected>SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 3)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3" selected>Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 4)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4" selected>Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 5)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5" selected>Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 6)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6" selected>LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+
+                                                            }
+                                                            else if (Model.MATH == 7)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7" selected>Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 8)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8" selected>Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else if (Model.MATH == 9)
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9" selected>Nokia</option>
+                                                                <option value="10">Realme</option>
+                                                            }
+                                                            else
+                                                            {
+                                                                <option value="MATH">[--Chọn thương hiệu--]</option>
+                                                                <option value="1">Apple</option>
+                                                                <option value="2">SamSung</option>
+                                                                <option value="3">Xiaomi</option>
+                                                                <option value="4">Huawei</option>
+                                                                <option value="5">Oppo</option>
+                                                                <option value="6">LG</option>
+                                                                <option value="7">Vivo</option>
+                                                                <option value="8">Sony</option>
+                                                                <option value="9">Nokia</option>
+                                                                <option value="10" selected>Realme</option>
+                                                            }
+                                                        }
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+                                                    <label for="hinhAnh">Hình ảnh sản phẩm</label>
+                                                    <input type="file" id="image_list" name="HINHANH" multiple="multiple">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <span style="color: red; font-weight: 700; font-size: 18;">Thông tin sản phẩm</span>
+                                        <div class="col-md-12" style="border-top:ridge; padding-top: 10px;">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="gia">Giá</label>
+                                                    <input name="GIA" class="form-control" type="number" value="@Model.GIA" min="0" step="5000">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="giaKM">Giá khuyến mãi</label>
+                                                    <input name="GIAKM" class="form-control" type="number" value="@Model.GIAKM" min="0" step="5000">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+                                                    <label for="ram">Mã sản phẩm</label>
+                                                    <input name="MATTSP" class="form-control" type="number" value="@Model.MATTSP" min="0" max="256" step="1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+
+                                                <label for="soLuong">Số lượng</label>
+                                                <input name="SOLUONG" class="form-control" type="number" value="@Model.SOLUONG" min="0" step="1">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="ram">Ram</label>
+                                                    <input name="RAM" class="form-control" type="number" value="@Model.RAM" min="0" max="256" step="1">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="boNhoTrong">Bộ nhớ trong</label>
+                                                    <input name="BONHOTRONG" class="form-control" type="number" value="@Model.BONHOTRONG" min="0" max="1028" step="1">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="pin">Dung lượng Pin</label>
+                                                    <input name="PIN" class="form-control" type="number" value="@Model.PIN" min="0" max="100000" step="1">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="kichthuocmanhinh">Kích thước màn hình</label>
+                                                    <input name="KICHTHUOCMANHINH" class="form-control" type="number" value="@Model.KICHTHUOCMANHINH" min="0" max="100" step="0.1">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="cameraTruoc">Camera trước</label>
+                                                    <input name="CAMERATRUOC" class="form-control" type="text" value="@Model.CAMERATRUOC">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="cameraSau">Camera sau</label>
+                                                    <input name="CAMERASAU" class="form-control" type="text" value="@Model.CAMERASAU">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="mauSac">Màu sắc</label>
+                                                    <input name="MAUSAC" class="form-control" type="text" value="@Model.MAUSAC">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="padding-right: 0px;">
+                                                <div class="form-group">
+
+                                                    <label for="cpu">CPU</label>
+                                                    <input name="CPU" class="form-control" type="text" value="@Model.CPU">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    </form>
+    <div class="col-md-4">
+        <span style="color: red; font-weight: 700; font-size: 18;">Loại sản phẩm</span>
+        <div class="col-md-12" style="border:ridge; padding-top: 10px;">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered" style="font-size: 14;">
+                    <thead>
+                        <tr>
+                            <th class="text-center">ID</th>
+                            <th>Tên Loại sản phẩm</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int i = 0;}
+                        @foreach (var item in ListLoaiSP)
+                        {
+                            
+                            i++;
+                            <tr>
+                                <th class="text-center" style="font-weight: 300;">@i</th>
+                                <th style="font-weight: 300;">@item.TENLOAISP</th>
+                                <th class="text-center">
+                                    
+                            </tr>                          
+                        }
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+    <div class="col-md-4" style="margin-top: 10;">
+        <span style="color: red; font-weight: 700; font-size: 18;">Thương hiệu</span>
+        <div class="col-md-12" style="border:ridge; padding-top: 10px;">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered" style="font-size: 14;">
+                    <thead>
+                        <tr>
+                            <th class="text-center">ID</th>
+                            <th>Tên Thương hiệu</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int j = 0;}
+                        @foreach (var item in ListTH)
+                        {
+                            j++;
+                            <tr>
+                                <th class="text-center" style="font-weight: 300;">@j</th>
+                                <th style="font-weight: 300;">@item.TENTH</th>
+                                
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+}
+
+
+

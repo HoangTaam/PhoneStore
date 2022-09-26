@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.SanPham>
+@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <section class="content-header">
+            <h1>
+                <i class="glyphicon glyphicon-phone"></i>Danh sách sản phẩm
+            </h1>
+            <div class="breadcrumb">
+                <form action="/TT/TT_SanPham/FindSanPham" method="post">
+                    <div class="searchbox">
+                        <input type="text" placeholder="Tìm kiếm sản phẩm" name="ten">
+                        <button type="submit" style="width: 50px; height: 25px; background-color: darkcyan; border-radius: 10px; color: white; border-color: white; ">
+                            <i class="fas fa-search-location"></i>
+                        </button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-header with-border">
+                            <div class="box-body">
+                                <div class="row" style="padding:0px; margin:0px; height: 1000px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center" style="width:70px">Mã TTSP</th>
+                                                    <th>Tên sản phẩm</th>
+                                                    <th>Hình ảnh</th>
+                                                    <th>Loại sản phẩm</th>
+                                                    <th>Thương hiệu</th>
+                                                    <th>Số lượng</th>
+                                                    <th class="text-center" colspan="1">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td class="text-center">@item.MATTSP</td>
+                                                        <td style="font-size: 16px;">@item.TENSP</td>
+                                                        <td style="width:120px">
+                                                            <img src="@item.HINHANH" alt="Điện thoại Iphone 13 ProMax" class="img-responsive">
+                                                        </td>
+                                                        <td>@item.TENLOAISP</td>
+                                                        <td>@item.TENTH</td>
+                                                        <td>@item.SOLUONG</td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-success btn-xs" href="/TT/TT_SanPham/ViewSanPham?Id=@item.MATTSP" role="button">
+                                                                <span class="glyphicon glyphicon-edit"></span>Xem
+                                                            </a>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @{ int pages = Convert.ToInt32(ViewData["pages"]); int p = Convert.ToInt32(ViewData["page"]);}
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="pagination">
+                        <form action="/TT/TT_SanPham/LietKeSanPham" method="get">
+                            <input type="submit" value="Go to" /> page <input type="number" max="@pages" min="1" name="page" value="@p" /> of @pages
+                        </form>
+                    </ul>
+                </div>
+            </div>        
+        </section>
+    </div>
+}

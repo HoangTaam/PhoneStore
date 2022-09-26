@@ -1,0 +1,308 @@
+﻿@{
+    ViewData["Title"] = "Sản phẩm ";
+    object ctsp = ViewData["CTSP"] as object;
+    List<Object> ListDT = ViewData["ListDT"] as List<object>;
+    List<Object> ListBL = ViewData["ListBL"] as List<object>;
+    KhachHang kh = ViewBag.KH;
+}
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Home/Index">Trang chủ</a></li>
+                    <li>
+                        <a href="/SanPham/DTDD">Điện thoại</a>
+                    </li>
+                    <li><a href="/SanPham/MayTinhBang">Máy tính bảng</a></li>
+                    <li><a href="/TinTuc/DanhSachTinTuc">Tin tức</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Chi tiết sản phẩm</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-content-right">
+                    <div class="product-breadcroumb">
+                        <a href="">Home</a>
+                        <a href="">Category Name</a>
+                        <a href="">Điện thoại</a>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="product-images">
+                                <div class="product-main-img">
+                                    <img src="@ctsp.GetType().GetProperty("HinhAnh").GetValue(ctsp,null)"
+                                         alt="" />
+                                </div>
+
+@*                                <div class="product-gallery">
+                                    <img src="~/img/product-thumb-1.jpg"
+                                         alt="" />
+                                    <img src="img/product-thumb-2.jpg"
+                                         alt="" />
+                                    <img src="~/img/product-thumb-3.jpg"
+                                         alt="" />
+                                </div>*@
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="product-inner">
+                                <h2 class="product-name">
+                                    @ctsp.GetType().GetProperty("TenSP").GetValue(ctsp, null)
+                                </h2>
+                                <div class="product-inner-price">
+                                    @if (int.Parse(ctsp.GetType().GetProperty("GiaKM").GetValue(ctsp, null).ToString()) > 0)
+                                    {
+                                        <ins>@string.Format("{0:0,0 đ}", ctsp.GetType().GetProperty("GiaKM").GetValue(ctsp, null))</ins>
+                                        <del>@string.Format("{0:0,0 đ}", ctsp.GetType().GetProperty("Gia").GetValue(ctsp, null))</del>
+                                    }
+                                    else
+                                    {
+                                        <ins>@string.Format("{0:0,0 đ}", ctsp.GetType().GetProperty("Gia").GetValue(ctsp, null))</ins>
+                                    }
+                                </div>
+                                <form action="/GioHang/InsertCart" class="cart">
+                                    <input style="display : none" name="MaTTSP" value="@ctsp.GetType().GetProperty("MaTTSP").GetValue(ctsp, null).ToString()">
+                                    <input style="display : none" name="MaKH" value="@kh.MaKH">
+                                    <input style="display : none" name="MaLoaiSP" value="@ctsp.GetType().GetProperty("MaLoaiSP").GetValue(ctsp, null).ToString()">
+                                    <input style="display : none" name="SLTon" value="@ctsp.GetType().GetProperty("SoLuong").GetValue(ctsp, null).ToString()">
+                                    <div class="quantity">
+                                        <label for="">Số lượng</label>
+                                        <input type="number"
+                                               size="4"
+                                               class="input-text qty text"
+                                               title="Qty"
+                                               value="1"
+                                               name="SoLuong"
+                                               min="1"
+                                               step="1" />
+                                    </div>
+                                    <div class="quantity">
+                                        <label for="">Số lượng còn: @ctsp.GetType().GetProperty("SoLuong").GetValue(ctsp, null) </label>
+                                    </div>
+                                    <button class="add_to_cart_button"
+                                            type="submit">
+                                        Thêm vào giỏ
+                                    </button>
+                                </form>
+
+                                <div role="tabpanel">
+                                    <ul class="product-tab"
+                                        role="tablist">
+                                        <li role="presentation"
+                                            class="active">
+                                            <a href="#home"
+                                               aria-controls="home"
+                                               role="tab"
+                                               data-toggle="tab">Description</a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#profile"
+                                               aria-controls="profile"
+                                               role="tab"
+                                               data-toggle="tab">Reviews</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div role="tabpanel"
+                                             class="
+                                                        tab-pane
+                                                        fade
+                                                        in
+                                                        active
+                                                    "
+                                             id="home">
+                                            <h2>Thông số kĩ thuật</h2>
+                                            <table class="table table-striped">
+                                                    <tr>
+                                                        <td> Loại sản phẩm</td>
+                                                        <td> @ctsp.GetType().GetProperty("LoaiSP").GetValue(ctsp, null).ToString()</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Thương hiệu </td>
+                                                        <td> @ctsp.GetType().GetProperty("TenTH").GetValue(ctsp, null).ToString()</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td> Màu Sắc </td>
+                                                        <td> @ctsp.GetType().GetProperty("Mausac").GetValue(ctsp, null).ToString()</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td> Ram </td>
+                                                        <td> @ctsp.GetType().GetProperty("Ram").GetValue(ctsp, null).ToString() GB</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Bộ nhớ trong </td>
+                                                        <td> @ctsp.GetType().GetProperty("Bonhotrong").GetValue(ctsp, null).ToString() GB</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Pin </td>
+                                                        <td> @ctsp.GetType().GetProperty("Pin").GetValue(ctsp, null).ToString() mAh</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Kích thước màn hình </td>
+                                                        <td> @ctsp.GetType().GetProperty("Kichthuocmanhinh").GetValue(ctsp, null).ToString() inch</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Camera trước </td>
+                                                        <td> @ctsp.GetType().GetProperty("Cameratruoc").GetValue(ctsp, null).ToString()</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Camera sau </td>
+                                                        <td> @ctsp.GetType().GetProperty("Camerasau").GetValue(ctsp, null).ToString()</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> CPU </td>
+                                                        <td> @ctsp.GetType().GetProperty("Cpu").GetValue(ctsp, null).ToString() </td>
+                                                    </tr>
+                                            </table>
+                                        </div>
+                                        <div role="tabpanel"
+                                             class="tab-pane fade"
+                                             id="profile">
+                                            <h2>
+                                                Bình luận - Đánh giá
+                                            </h2>
+                                            <form class="submit-review" action="/BinhLuan/ThemBinhLuan" method="post">
+                                                <p>
+                                                    <label for="review">
+                                                        Bình luận -
+                                                        Đánh giá của bạn
+                                                        về sản
+                                                        phẩm
+                                                    </label>
+                                                    <input style="display : none" name="MaTTSP" value="@ctsp.GetType().GetProperty("MaTTSP").GetValue(ctsp,null)">
+                                                    <input style="display : none" name="MaKH" value="@kh.MaKH">
+                                                    <textarea name="NoiDung"
+                                                              id="NoiDung"
+                                                              cols="30"
+                                                              rows="10"></textarea>
+                                                </p>
+                                                <p>
+                                                    <input type="submit"
+                                                           value="Đăng" />
+                                                </p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-products-wrapper">
+                        <h2 class="related-products-title">
+                            Sản phẩm liên quan
+                        </h2>
+                        <div class="related-products-carousel">
+                            @foreach (var dt in ListDT)
+                            {
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="@dt.GetType().GetProperty("HinhAnh").GetValue(dt, null)"
+                                             alt="" />
+                                        <div class="product-hover">
+                                            <a href="/GioHang/InsertCart2?id1=@dt.GetType().GetProperty("MaTTSP").GetValue(dt,null).ToString()&id2=@ctsp.GetType().GetProperty("MaTTSP").GetValue(ctsp,null).ToString()&MaLoaiSP=@ctsp.GetType().GetProperty("MaLoaiSP").GetValue(ctsp,null).ToString()"
+                                               class="add-to-cart-link">
+                                                <i class="
+                                                                fa fa-shopping-cart
+                                                            "></i>
+                                                Thêm vào giỏ
+                                            </a>
+                                            <a href="/SanPham/ChiTietSP?t=@dt.GetType().GetProperty("MaTTSP").GetValue(dt,null).ToString()&l=@ctsp.GetType().GetProperty("MaLoaiSP").GetValue(ctsp,null).ToString()"
+                                               class="view-details-link">
+                                                <i class="fa fa-link"></i>
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="/SanPham/ChiTietSP?t=@dt.GetType().GetProperty("MaTTSP").GetValue(dt, null).ToString()">
+                                        @dt.GetType().GetProperty("TenSP").GetValue(dt, null).ToString()
+                                        </a>
+                                    </h2>
+                                    <h4>
+                                        @dt.GetType().GetProperty("MauSac").GetValue(dt, null).ToString()-
+                                        @dt.GetType().GetProperty("Ram").GetValue(dt, null).ToString()GB-
+                                        @dt.GetType().GetProperty("BoNhoTrong").GetValue(dt, null).ToString()GB
+                                    </h4>
+                                    <div class="product-carousel-price">
+                                        @if (int.Parse(@dt.GetType().GetProperty("GiaKM").GetValue(dt, null).ToString()) > 0)
+                                        {
+                                            <ins>@string.Format("{0:0,0 đ}", dt.GetType().GetProperty("GiaKM").GetValue(dt, null))</ins>
+                                            <del>@string.Format("{0:0,0 đ}", dt.GetType().GetProperty("Gia").GetValue(dt, null))</del>
+                                        }
+                                        else
+                                        {
+                                            <ins>@string.Format("{0:0,0 đ}", dt.GetType().GetProperty("Gia").GetValue(dt, null))</ins>
+                                        }
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+            
+                    <div class="related-products-wrapper">
+                        <h2 class="related-products-title">
+                            Bình luận - Đánh giá
+                        </h2>
+                        <div>
+                            @foreach (var bl in ListBL)
+                            {
+                                <div>
+                                    <div class="well">
+                                        <div class="media" style="width: 150px;">
+                                            <a href="#">
+                                                <img class="media-object" src="~/img/profile.png"
+                                                     alt="..." style="margin-left: 15px;" />
+                                                <h6 style="margin-top: 10px;">@bl.GetType().GetProperty("TenKH").GetValue(bl, null).ToString()</h6>
+                                            </a>
+                                        </div>
+                                        <p class="binhluantext">
+                                            @bl.GetType().GetProperty("NoiDung").GetValue(bl, null).ToString()
+                                        </p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

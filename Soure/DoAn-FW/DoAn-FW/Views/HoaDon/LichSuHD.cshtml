@@ -1,0 +1,123 @@
+﻿@{
+    List<HoaDon> ListHD = ViewBag.ListHD;
+}
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/Home/Index">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="/TaiKhoan/ThongTinTK">Thông tin cá nhân</a>
+                    </li>
+                    <li class="active">
+                        <a href="/HoaDon/LichSuHD">
+                            Lịch sử hóa đơn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>
+                        Lịch sử hóa đơn
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page title area -->
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Mã hóa đơn</th>
+                        <th scope="col">Tổng tiền</th>
+                        <th scope="col">Ngày lập hóa đơn</th>
+                        <th scope="col">Tình trạng</th>
+                        <th scope="col">Giao hàng</th>
+                        <th scope="col">Thanh toán</th>
+                        <th scope="col" colspan="2" class="text-center"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ListHD)
+                    {
+                        <tr>
+                            <td>
+                                @item.MaHD
+                            </td>
+                            <td>
+                                @string.Format("{0:0,0 đ}",item.TongTienTT)
+                            </td>
+                            <td>@item.NgayLapHD.ToString("dd-MM-yyyy")</td>
+                            <td>
+                                @if (@item.TinhTrangHD == 0)
+                                { <p>Chưa duyệt </p> }
+                                else if(@item.TinhTrangHD == -1) {<p>Đã hủy </p> }
+                                else {<p>Đã duyệt </p> }
+                            </td>
+                            <td>
+                                @if (@item.TinhTrangGH == 0)
+                                {<p>Chưa giao hàng </p> }
+                                else
+                                {<p>Đã giao hàng </p>}
+                            </td>
+                            <td>
+                                @if (@item.TinhTrangTT == 0)
+                                {<p>Chưa thanh toán </p> }
+                                else
+                                {<p>Đã thanh toán </p>}
+                            </td>
+                            <td>
+                                <a class="btn btn-info btn-xs" href="/HoaDon/CTHD?mahd=@item.MaHD" role="button">
+                                    <span class="glyphicon glyphicon-eye-open">Xem</span>
+                                </a>
+                            </td>
+                            <td>
+                                @if (@item.TinhTrangHD == 0)
+                                {
+                                    <a class="btn btn-danger btn-xs" href="/HoaDon/CapNhatHD?mahd=@item.MaHD&tthd=-1" role="button">
+                                    <span class="glyphicon glyphicon-remove-circle">Hủy</span>
+                                    </a>
+                                }
+                                else if (@item.TinhTrangHD == -1) 
+                                { 
+                                    <a class="btn btn-success btn-xs" href="/HoaDon/CapNhatHD?mahd=@item.MaHD&tthd=0" role="button">
+                                    <span class="glyphicon glyphicon-refresh">Đặt lại</span>
+                                    </a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <hr>
+            <h4 class="text-center">Hết</h4>
+        </div>
+    </div>
+</div>

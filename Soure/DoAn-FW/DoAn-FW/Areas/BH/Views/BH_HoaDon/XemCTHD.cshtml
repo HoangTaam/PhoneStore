@@ -1,0 +1,147 @@
+﻿@section Click_CTHD{
+    <script type="text/javascript">
+        $(function () {
+            $('#tbl_cthd tr').click(function (e) {
+                var masp = $(this).closest('.onRow').find('td:nth-child(1)').text();
+                var sl = $(this).closest('.onRow').find('td:nth-child(3)').text();
+                $('#spSL').val(masp);
+                $('#slIP').val(sl);
+            });
+        });
+    </script>
+}
+@model IEnumerable<Web_projectframeword_admin.Models.CTHD>
+<div class="content-wrapper" style="min-height: 639px;">
+    <form action="InsertCTHD" method="post">
+        <section class="content-header">
+            <h1><i class="glyphicon glyphicon-ok-sign"></i>Chi tiết hóa đơn</h1>
+            <div class="breadcrumb">
+                <a class="btn btn-primary btn-sm" href="/BH/BH_HoaDon/Index" role="button">
+                    <span class="glyphicon glyphicon-floppy-save"></span>Lưu
+                </a>
+            </div>
+        </section>
+        <section class="content">
+            @{
+                if (Convert.ToString(ViewData["thongbao"]) == "Vui lòng chọn sản phẩm và số lượng" || Convert.ToString(ViewData["thongbao"]) == "Thêm thất bại")
+                {
+                    <div class="row">
+                        <div class="alert alert-error">
+                            @ViewData["thongbao"]
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        </div>
+                    </div>
+                }
+                if (Convert.ToString(ViewData["thongbao"]) == "Thêm thành công")
+                {
+                    <div class="row">
+                        <div class="alert alert-success">
+                            @ViewData["thongbao"]
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        </div>
+                    </div>
+                }
+            }
+            @{
+                if (Convert.ToString(ViewData["trangthai"]) == "Xóa không thành công")
+                {
+                    <div class="row">
+                        <div class="alert alert-error">
+                            @ViewData["trangthai"]
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        </div>
+                    </div>
+                }
+                if (Convert.ToString(ViewData["trangthai"]) == "Xóa thành công")
+                {
+                    <div class="row">
+                        <div class="alert alert-success">
+                            @ViewData["trangthai"]
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        </div>
+                    </div>
+                }
+            }
+            <div class="row">
+                <div class="col-md-12">
+                    <span style="font-size: 16px; font-weight: 700;">Chi tiết hóa đơn</span>
+                    <div class="box" id="view">
+                        <div class="box-body">
+                            <div class="col-md-12" style="border-right:ridge">
+                                <div class="form-group">
+                                    <div class="col-md-6">
+                                        <label>Sản phẩm</label>
+                                        <select class="form-group" style="width:100%" onchange="return LoadMASP(this)">
+                                            <option value="">[----Xem danh sách sản phẩm----]</option>
+                                            @foreach (var item in ViewBag.DSSP)
+                                            {
+                                                <option value="@item.MATTSP">@item.MATTSP - @item.TENSP</option>
+                                            }
+                                        </select>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="col-md-6">
+                                            <label>Mã sản phẩm</label>
+                                            <input type="hidden" class="form-control" name="MaHD" min="0" step="1" style="width: 100%; margin-bottom: 10px;" value="@ViewData["mahd"]">
+                                            <input type="number" class="form-control" id="spSL" name="MaSP" min="0" step="1" style="width: 100%; margin-bottom: 10px;" value="0">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Số lượng</label>
+                                            <input type="number" class="form-control" id="slIP" name="SoLuong" min="0" step="1" style="width:100%; margin-bottom: 10px;" value="0">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-1" style="padding-right: 0px; padding-top: 25px;">
+                                        <button class="btn btn-primary btn-sm">
+                                            <span class="glyphicon glyphicon-plus"></span>Thêm
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row" style="padding:0px; margin:0px;">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-bordered" id="tbl_cthd">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">Mã SP</th>
+                                                    <th>Tên sản phẩm</th>
+                                                    <th class="text-center">Số lượng</th>
+                                                    <th class="text-center">Thành tiền</th>
+                                                    <th class="text-center">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr class="onRow">
+                                                        <td class="text-center">@item.MaSP</td>
+                                                        <td>@item.TenSP</td>
+                                                        <td class="text-center">@item.SoLuong</td>
+                                                        <td class="text-center">@item.ThanhTien</td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-danger btn-xs" href="/BH/BH_HoaDon/DeleteCTHD?MAHD=@item.MaHD&MASP=@item.MaSP" onclick="return confirm('Xác nhận xóa ?')" role="button">
+                                                                <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+</div>
+<script type="text/javascript">
+    function LoadMASP(obj) {
+        var masp = obj.value;
+        document.getElementById("spSL").value = masp;
+    }
+</script>

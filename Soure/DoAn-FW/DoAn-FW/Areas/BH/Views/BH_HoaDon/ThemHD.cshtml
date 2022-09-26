@@ -1,0 +1,139 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.HoaDonEditModel>
+    <div class="content-wrapper" style="min-height: 639px;">
+        <form action="ThemCTHD" method="post">
+            <section class="content-header">
+                <h1><i class="glyphicon glyphicon-ok-sign"></i> Thêm hóa đơn mới</h1>
+                <div class="breadcrumb">
+                    <button class="btn btn-primary btn-sm">
+                        <span class="glyphicon glyphicon-floppy-save"></span>Lưu
+                    </button>
+                    <a class="btn btn-primary btn-sm" href="/BH/BH_HoaDon/Index" role="button">
+                        <span class="glyphicon glyphicon-remove do_nos"></span> Thoát
+                    </a>
+                </div>
+            </section>
+            <!-- Main content -->
+            <section class="content">
+                @{
+                    if (Convert.ToString(ViewData["thongbao"]) == "Không được bỏ trống" || Convert.ToString(ViewData["thongbao"]) == "Thêm hóa đơn không thành công")
+                    {
+                        <div class="row">
+                            <div class="alert alert-error">
+                                @ViewData["thongbao"]
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            </div>
+                        </div>
+                    }
+                    if (Convert.ToString(ViewData["thongbao"]) == "Thêm hóa đơn thành công")
+                    {
+                        <div class="row">
+                            <div class="alert alert-success">
+                                @ViewData["thongbao"]
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            </div>
+                        </div>
+                    }
+                }
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box" id="view">
+                            <div class="box-body">
+                                <div class="col-md-12">
+                                    <div class="col-md-4" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label>Khách hàng</label>
+                                            <select class="form-group" id="sltMAKH" style="width:100%" onchange="return LoadMAKH(this)">
+                                                <option value="">[--Xem danh sách khách hàng--]</option>
+                                                @foreach (var item in ViewBag.DSKH)
+                                                {
+                                                    <option value="@item.MaKH">@item.MaKH - @item.TenKH</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label>Mã khách hàng</label>
+                                            <input type="number" class="form-control" name="MaKH" id="nbMaKH" min="0" step="1" style="width:100%" value="" placeholder="Nhập mã khách hàng">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Khuyến mãi</label>
+                                            <select name="MaKM" class="form-group" style="width:100%">
+                                                <option value="">[--Chọn khuyến mãi--]</option>
+                                                @foreach (var item in ViewBag.DSKM)
+                                                {
+                                                    <option value="@item.MaKM">@item.MaKM - @item.SoPTKM%</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-3" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label>Tình trạng thanh toán</label>
+                                            <select class="form-control" name="TinhTrangTT">
+                                                <option value="0">0. Chưa thanh toán</option>
+                                                <option value="1">1. Đã thanh toán</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Tình trạng hóa đơn</label>
+                                            <select class="form-control" name="TinhTrangHD">
+                                                <option value="0">0. Chưa duyệt</option>
+                                                <option value="1">1. Đã duyệt</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Địa chỉ giao hàng</label>
+                                            <input type="text" class="form-control" name="DiaChiGH" style="width:100%" placeholder="Nhập địa chỉ giao hàng" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-3" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label>Ngày lập</label>
+                                            <input type="date" class="form-control" name="NgayLapHD" style="width:100%" value="@DateTime.Now.ToString("yyyy-MM-dd")">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Tổng tiền</label>
+                                            <input type="number" class="form-control" name="TongTienTT" min="0" step="5000" style="width:100%" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Tiền nhận</label>
+                                            <input type="number" class="form-control" name="SoTienNhan" min="0" step="5000" style="width:100%" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Tiền trả</label>
+                                            <input type="number" class="form-control" name="SoTienTra" min="0" step="5000" style="width:100%" value="0">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </form>
+    </div>
+    <script type="text/javascript">
+        function LoadMAKH(obj) {
+            var makh = obj.value;
+            document.getElementById("nbMaKH").value = makh;
+        }
+    </script>

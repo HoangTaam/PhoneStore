@@ -1,0 +1,159 @@
+﻿@using Web_projectframeword_admin.Models;
+@model NhapHang
+@section Click_CTPN{
+    <script type="text/javascript">
+        $(function () {
+            $('#tbl_ctpn tr').click(function (e) {
+                var masp = $(this).closest('.onRow').find('td:nth-child(2)').text();
+                var gianhap = $(this).closest('.onRow').find('td:nth-child(4)').text();
+                var sl = $(this).closest('.onRow').find('td:nth-child(5)').text();
+                $('#spSL').val(masp);
+                $('#gnIP').val(gianhap);
+                $('#slIP').val(sl);
+            });
+        });
+    </script>
+}
+@{
+    <div class="content-wrapper" style="min-height: 639px;">
+        <form action="/Admin/NhapHang/UpdateNhapHang" method="post">
+            <section class="content-header">
+                <h1><i class="glyphicon glyphicon-ok-sign"></i> Thêm phiếu nhập mới</h1>
+                <div class="breadcrumb">
+                    <a class="btn btn-primary btn-sm">
+                        Update
+                        <button type="submit" style="width: 50px; height: 25px; background-color: darkcyan; border-radius: 10px; color: white; border-color: white; ">
+                            <i class="glyphicon glyphicon-floppy-save"></i>
+                        </button>
+                    </a>
+                    <a class="btn btn-primary btn-sm" href="/Admin/NhapHang/LietKeNhapHang" role="button">
+                        <span class="glyphicon glyphicon-remove do_nos"></span> Thoát
+                    </a>
+                </div>
+            </section>
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box" id="view">
+                            <div class="box-body">
+                                <div class="col-md-12">
+                                    <div class="col-md-6" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label for="maPN">Mã phiếu nhập</label>
+                                            <input type="number" readonly class="form-control" name="MAPN" value="@Model.MAPN">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label for="tongtienTT">Tổng tiền thanh toán</label>
+                                            <input type="number" readonly class="form-control" name="TONGTIENTT" min="0" step="5000" style="width:100%" value="@Model.TONGTIENTT">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-6" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label for="ngaylapPN">Ngày lập phiếu</label>
+                                            <input type="date" readonly class="form-control" name="NGAYLAPPN" value="@Model.NGAYLAPPN.Date.ToString("yyyy-MM-dd")" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Tình trạng thanh toán</label>
+                                            <select class="form-control" name="TINHTRANGTT">
+                                                @{ 
+                                                    if (Model.TINHTRANGTT == 0)
+                                                    {
+                                                        <option value="0" selected>Chưa thanh toán</option>
+                                                        <option value="1">Đã thanh toán</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="0">Chưa thanh toán</option>
+                                                        <option value="1" selected>Đã thanh toán</option>
+                                                    }
+                                                 }
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-6" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <Label>Nhà cung cấp</Label>
+                                            <select name="MANCC" class="form-control">
+                                                @{
+                                                    if (Model.MANCC == 1)
+                                                    {
+                                                        <option value="1" selected>Apple</option>
+                                                        <option value="2">SamSung</option>
+                                                        <option value="3">Xiaomi</option>
+                                                        <option value="4">Oppo</option>
+                                                        <option value="5">iDT</option>
+                                                        <option value="7">AriB</option>
+                                                    }
+                                                    else if (Model.MANCC == 2)
+                                                    {
+                                                        <option value="1">Apple</option>
+                                                        <option value="2" selected>SamSung</option>
+                                                        <option value="3">Xiaomi</option>
+                                                        <option value="4">Oppo</option>
+                                                        <option value="5">iDT</option>
+                                                        <option value="7">AriB</option>
+                                                    }
+                                                    else if (Model.MANCC == 3)
+                                                    {
+                                                        <option value="1">Apple</option>
+                                                        <option value="2">SamSung</option>
+                                                        <option value="3" selected>Xiaomi</option>
+                                                        <option value="4">Oppo</option>
+                                                        <option value="5">iDT</option>
+                                                        <option value="7">AriB</option>
+                                                    }
+                                                    else if (Model.MANCC == 4)
+                                                    {
+                                                        <option value="1">Apple</option>
+                                                        <option value="2">SamSung</option>
+                                                        <option value="3">Xiaomi</option>
+                                                        <option value="4" selected>Oppo</option>
+                                                        <option value="5">iDT</option>
+                                                        <option value="7">AriB</option>
+                                                    }
+                                                    else if (Model.MANCC == 5)
+                                                    {
+                                                        <option value="1">Apple</option>
+                                                        <option value="2">SamSung</option>
+                                                        <option value="3">Xiaomi</option>
+                                                        <option value="4">Oppo</option>
+                                                        <option value="5" selected>iDT</option>
+                                                        <option value="7">AriB</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="1">Apple</option>
+                                                        <option value="2">SamSung</option>
+                                                        <option value="3">Xiaomi</option>
+                                                        <option value="4">Oppo</option>
+                                                        <option value="5">iDT</option>
+                                                        <option value="7" selected>AriB</option>
+                                                    }
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label for="maNV">Mã nhân viên</label>
+                                            <input type="number" class="form-control" name="MANV" value="@Model.MANV">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </div>
+}

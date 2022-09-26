@@ -1,0 +1,126 @@
+﻿@model List<object>
+@{ int stt = 0; }
+<div class="content-wrapper" style="min-height: 639px;">
+    <section class="content">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3>1</h3>
+                        <p>Khách hàng</p>
+                        <div class="icon">
+                            <i class="ion ion-cash"></i>
+                        </div>
+                    </div>
+                    <a href="/TT/TT_ThongKe/DSKH" class="small-box-footer">Các khách hàng mua nhiều nhất</a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3>2</h3>
+                        <p>Sản phẩm</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-stats-bars"></i>
+                    </div>
+                    <a href="/TT/TT_ThongKe/DSSP" class="small-box-footer">Những sản phẩm bán chạy nhất</a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3>3</h3>
+                        <p>Nhân viên</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-person"></i>
+                    </div>
+                    <a href="" class="small-box-footer" style="height:26px"></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3>4</h3>
+                        <p>Nhà cung cấp</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                    </div>
+                    <a href="/TT/TT_ThongKe/ChiPhi" class="small-box-footer">Thống kê mua hàng & chi phí</a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.Data -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box" id="view">
+                    <div class="box-header with-border">
+                        <div class="box-body">
+                            <div class="row" style="padding:0px; margin:0px;">
+                                <div class="table-responsive">
+                                    <div class="box-header with-border">
+                                        <h3 class="fa fa-chart-bar"> Top 3 khách hàng</h3>
+                                        <div class="bread_crumb">
+                                            <form action="/TT/TT_ThongKe/DSKH" method="post">
+                                                <label for="chooseyear">Chọn năm thống kê: </label>
+                                                <input type="number" id="chooseyear" name="y" min="2021" value="@ViewBag.Nam">
+                                                <input class="btn-success" type="submit" value="Xem thống kê">
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">STT</th>
+                                                <th>Mã KH</th>
+                                                <th>Tên Khách hàng</th>
+                                                <th>Tổng tiền</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            @if (Model.Count() > 0)
+                                            {
+                                                @foreach (var item in Model)
+                                                {
+                                                     stt += 1;
+                                                    <tr>
+                                                        <td class="text-center">@stt</td>
+                                                        <td>@item.GetType().GetProperty("MaKH").GetValue(item, null).ToString()</td>
+                                                        <td>@item.GetType().GetProperty("TenKH").GetValue(item, null).ToString()</td>
+                                                        <td>@string.Format("{0:0,0}", @item.GetType().GetProperty("TongTien").GetValue(item, null)) đ</td>
+                                                    </tr>
+
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <ul class="pagination">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

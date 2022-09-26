@@ -1,0 +1,82 @@
+﻿@model KhachHang
+<div class="content-wrapper" style="min-height: 639px;">
+    <form>
+        <section class="content-header">
+            <h1><i class="glyphicon glyphicon-user"></i> Thông tin chi tiết khách hàng</h1>
+            <div class="breadcrumb">
+                <a class="btn btn-primary btn-sm" href="/TT/TT_KhachHang/Index" role="button">
+                    <span class="glyphicon glyphicon-remove do_nos"></span> Thoát
+                </a>
+            </div>
+        </section>
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box" id="view">
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-4" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label>Mã khách hàng</label>
+                                            <input type="number" readonly class="form-control" style="width:100%" value="@Model.MaKH" min="0" step="1" max="10000000">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Tên khách hàng</label>
+                                            <input type="text" readonly class="form-control" style="width:100%" placeholder="Tên khách hàng" value="@Model.TenKH">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-5" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label>Số điện thoại</label>
+                                            <input type="text" readonly class="form-control" style="width:100%" placeholder="SĐT khách hàng" value="@Model.SDT">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="text" readonly class="form-control" style="width:100%" placeholder="Email khách hàng" value="@Model.Email">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-4" style="padding-left: 0px;">
+                                        <div class="form-group">
+                                            <label>Giới tính</label>
+                                            <input type="text" readonly class="form-control" style="width:100%" placeholder="Giới tính" value="@Model.GioiTinh">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label>CMND</label>
+                                            <input type="text" readonly class="form-control" style="width:100%" placeholder="CMND khách hàng" value="@Model.CMND">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" style="padding-right: 0px;">
+                                        <div class="form-group">
+                                            <label>Loại khách hàng</label>
+                                            <input type="text" readonly class="form-control" style="width:100%" placeholder="Loại khách hàng" value="@Model.LoaiKH">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Địa chỉ</label>
+                                <input type="text" readonly class="form-control" style="width:100%" placeholder="Địa Chỉ khách hàng" value="@Model.DiaChi">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+</div>

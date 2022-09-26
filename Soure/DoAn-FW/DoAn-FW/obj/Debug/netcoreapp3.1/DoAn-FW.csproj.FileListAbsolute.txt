@@ -1,0 +1,688 @@
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\appsettings.json
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.exe
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.deps.json
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.runtimeconfig.json
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.runtimeconfig.dev.json
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.pdb
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.Views.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.Views.pdb
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\PagedList.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\PagedList.Mvc.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.AssemblyInfoInputs.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.AssemblyInfo.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.CoreCompileInputs.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorAssemblyInfo.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorAssemblyInfo.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\staticwebassets\DoAn-FW.StaticWebAssets.Manifest.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\staticwebassets\DoAn-FW.StaticWebAssets.xml
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\scopedcss\bundle\DoAn-FW.styles.css
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.TagHelpers.input.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.TagHelpers.output.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorCoreGenerate.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\GioHang\Cart.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\ChiTietSP.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\DanhSachSP.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\DangKi.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\DangNhap.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TinTuc\ChiTietTinTuc.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TinTuc\DanhSachTinTuc.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorTargetAssemblyInfo.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorTargetAssemblyInfo.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.Views.pdb
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.CopyComplete
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.pdb
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.genruntimeconfig.cache
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\MayTinhBang.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\DTDD.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\ThemTK.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\BinhLuan\ThemBinhLuan.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\HoaDon.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\CTHD.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\XacNhanHD.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\InsertHD.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\LichSuHD.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\ThongTinTK.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\GioHang\InsertCart.cshtml.g.cs
+D:\C#\ASP\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.AssemblyReference.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.exe
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.deps.json
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.runtimeconfig.json
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.runtimeconfig.dev.json
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.pdb
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.Views.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.Views.pdb
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\PagedList.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\PagedList.Mvc.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.AssemblyInfoInputs.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.AssemblyInfo.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.CoreCompileInputs.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.MvcApplicationPartsAssemblyInfo.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorAssemblyInfo.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorAssemblyInfo.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\staticwebassets\DoAn-FW.StaticWebAssets.Manifest.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\staticwebassets\DoAn-FW.StaticWebAssets.xml
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\scopedcss\bundle\DoAn-FW.styles.css
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.TagHelpers.input.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.TagHelpers.output.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorCoreGenerate.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\BinhLuan\ThemBinhLuan.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\GioHang\Cart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\GioHang\InsertCart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\CTHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\HoaDon.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\InsertHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\LichSuHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\XacNhanHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\ChiTietSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\DanhSachSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\DTDD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\MayTinhBang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\DangKi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\DangNhap.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\ThemTK.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\ThongTinTK.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TinTuc\ChiTietTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TinTuc\DanhSachTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorTargetAssemblyInfo.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorTargetAssemblyInfo.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.Views.pdb
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.CopyComplete
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.pdb
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.genruntimeconfig.cache
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CauHinh\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GiaoHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\ThemHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\XemHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhachHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhachHang\XemKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\SuaNCC.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\ThemNCC.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhanVien\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhanVien\SuaNV.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhanVien\ThemNV.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\SuaTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\ThemTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HomeAdmin\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ZstdNet.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\XemCTHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\ChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\CTChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\DSKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\DSSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\InsertNCC.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\InsertTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\DeleteKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\EnterKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\InsertKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\LietKeKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\UpdateKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\ViewKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoTro\DeleteHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoTro\LietKeHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\DeleteLoaiSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\DeleteSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\DeleteTH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\EnterSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\FindSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\InsertLoaiSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\InsertSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\InsertTH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\LietKeSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\UpdateSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\ViewSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\Shared\Error.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\Shared\_Layout.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BanHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\ChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\CTChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\DSKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\DSSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\InsertTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\SuaTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\ThemTinTuc.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\DeleteLoaiSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\DeleteSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\DeleteTH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\EnterSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\FindSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\InsertLoaiSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\InsertSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\InsertTH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\LietKeSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\UpdateSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\ViewSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhuyenMai\LietKeKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhuyenMai\ViewKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoTro\DeleteHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoTro\LietKeHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\ThemHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\XemCTHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\XemHD.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_GiaoHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhachHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhachHang\XemKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_NhanVien\SuaNV.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\_ViewImports.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\_ViewStart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\Shared\Error.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\Shared\_Layout.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\_ViewImports.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\_ViewStart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\ChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\CTChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\DSKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\DSSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\HomeGH\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_SanPham\LietKeSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_SanPham\ViewSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_HoTro\LietKeHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_KhachHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_KhachHang\XemKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_NhanVien\SuaNV.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\Shared\Error.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\Shared\_Layout.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\_ViewImports.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\_ViewStart.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\ChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\CTChiPhi.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\DSKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\DSSP.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_SanPham\LietKeSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_SanPham\ViewSanPham.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhuyenMai\LietKeKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhuyenMai\ViewKhuyenMai.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_HoTro\DeleteHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_HoTro\LietKeHoTro.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhachHang\Index.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhachHang\XemKH.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_NhanVien\SuaNV.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\CTPN.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\DeleteCTPN.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\DeleteNhapHang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\EnterNhapHang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\InsertNhapHang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\LietKeNhapHang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\UpdateNhapHang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\ViewNhapHang.cshtml.g.cs
+D:\Tài liệu\HK1 2021-2022\FrameWork\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.AssemblyReference.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\appsettings.json
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.exe
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.deps.json
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.runtimeconfig.json
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.runtimeconfig.dev.json
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.pdb
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.Views.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\DoAn-FW.Views.pdb
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ZstdNet.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\PagedList.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\PagedList.Mvc.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.AssemblyReference.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.AssemblyInfoInputs.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.AssemblyInfo.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.CoreCompileInputs.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorAssemblyInfo.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorAssemblyInfo.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\staticwebassets\DoAn-FW.StaticWebAssets.Manifest.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\staticwebassets\DoAn-FW.StaticWebAssets.xml
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\scopedcss\bundle\DoAn-FW.styles.css
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.TagHelpers.input.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.TagHelpers.output.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorCoreGenerate.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CauHinh\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GiaoHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\ThemHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\XemCTHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoaDon\XemHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HomeAdmin\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoTro\DeleteHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\HoTro\LietKeHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhachHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhachHang\XemKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\DeleteKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\EnterKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\InsertKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\LietKeKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\UpdateKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KhuyenMai\ViewKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\InsertNCC.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\SuaNCC.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhaCungCap\ThemNCC.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhanVien\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhanVien\SuaNV.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhanVien\ThemNV.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\CTPN.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\DeleteCTPN.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\DeleteNhapHang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\EnterNhapHang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\InsertNhapHang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\LietKeNhapHang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\UpdateNhapHang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\NhapHang\ViewNhapHang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\DeleteLoaiSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\DeleteSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\DeleteTH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\EnterSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\FindSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\InsertLoaiSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\InsertSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\InsertTH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\LietKeSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\UpdateSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SanPham\ViewSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\ChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\CTChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\DSKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\DSSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ThongKe\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\InsertTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\SuaTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TinTuc\ThemTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BanHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_GiaoHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\ThemHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\XemCTHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoaDon\XemHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoTro\DeleteHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_HoTro\LietKeHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhachHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhachHang\XemKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhuyenMai\LietKeKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_KhuyenMai\ViewKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_NhanVien\SuaNV.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\DeleteLoaiSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\DeleteSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\DeleteTH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\EnterSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\FindSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\InsertLoaiSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\InsertSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\InsertTH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\LietKeSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\UpdateSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_SP\ViewSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\ChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\CTChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\DSKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\DSSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_ThongKe\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\InsertTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\SuaTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\BH_TinTuc\ThemTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\Shared\Error.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\_ViewImports.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\BH\Views\_ViewStart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_HoTro\LietKeHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_KhachHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_KhachHang\XemKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_NhanVien\SuaNV.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_SanPham\LietKeSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_SanPham\ViewSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\ChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\CTChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\DSKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\DSSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\GH_ThongKe\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\HomeGH\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\Shared\Error.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\_ViewImports.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\GH\Views\_ViewStart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\Shared\Error.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_HoTro\DeleteHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_HoTro\LietKeHoTro.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhachHang\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhachHang\XemKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhuyenMai\LietKeKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_KhuyenMai\ViewKhuyenMai.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_NhanVien\SuaNV.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_SanPham\LietKeSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_SanPham\ViewSanPham.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\ChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\CTChiPhi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\CTTKTheoThang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\DSKH.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\DSSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\TT_ThongKe\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\_ViewImports.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Areas\TT\Views\_ViewStart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\BinhLuan\ThemBinhLuan.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\GioHang\Cart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\GioHang\InsertCart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\CTHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\HoaDon.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\InsertHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\LichSuHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\HoaDon\XacNhanHD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\ChiTietSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\DanhSachSP.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\DTDD.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\SanPham\MayTinhBang.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\DangKi.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\DangNhap.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\ThemTK.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TaiKhoan\ThongTinTK.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TinTuc\ChiTietTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\TinTuc\DanhSachTinTuc.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorTargetAssemblyInfo.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.RazorTargetAssemblyInfo.cs
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.Views.pdb
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.dll
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.pdb
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.genruntimeconfig.cache
+D:\C#\ASP\Đồ Án\DoAn-FW\DoAn-FW\obj\Debug\netcoreapp3.1\DoAn-FW.csproj.CopyComplete

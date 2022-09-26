@@ -1,0 +1,59 @@
+﻿
+@{
+    <form class="content-wrapper" style="min-height: 639px;" action="/Admin/NhaCungCap/InsertNCC" method="post">
+                <section class="content-header">
+                    <h1><i class="glyphicon glyphicon-tower"></i> Thêm nhà cung cấp mới</h1>
+                    <div class="breadcrumb">
+                        <button type="submit" class="btn btn-primary btn-sm" role="button" style="width: 67.81px; height: 30px; padding: 5px 10px; border: 1px">
+                            <i class="glyphicon glyphicon-save">
+                                Thêm
+                            </i>
+                        </button>
+                        <a class="btn btn-primary btn-sm" href="/Admin/NhaCungCap/Index" role="button">
+                            <span class="glyphicon glyphicon-remove do_nos"></span> Thoát
+                        </a>
+                    </div>
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="box" id="view">
+                                <div class="box-body">
+                                    <form action="/Admin/NhaCungCap/Index" method="post">
+                                        <div class="form-group">        
+                                            <label>Tên nhà cung cấp</label>
+                                            <input type="text" class="form-control" name="tenncc" style="width:100%" placeholder="Tên nhà cung cấp">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="col-md-6" style="padding-left: 0px;">
+                                                    <div class="form-group">
+                                                        <label>Email</label>
+                                                        <input type="text" class="form-control" name="email" style="width:100%" placeholder="Email nhà cung cấp">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6" style="padding-right: 0px;">
+                                                    <div class="form-group">
+                                                        <label>Số điện thoại</label>
+                                                        <input type="text" class="form-control" name="sdt" style="width:100%" placeholder="SĐT nhà cung cấp">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Địa chỉ</label>
+                                            <input type="text" class="form-control" name="diachi" style="width:100%" placeholder="Địa Chỉ nhà cung cấp">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Website</label>
+                                            <input type="text" class="form-control" name="website" style="width:100%" placeholder="Website nhà cung cấp">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </form>
+}

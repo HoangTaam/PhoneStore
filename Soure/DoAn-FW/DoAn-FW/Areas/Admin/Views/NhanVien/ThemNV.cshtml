@@ -1,0 +1,121 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.NhanVien>
+    <div class="content-wrapper" style="min-height: 639px;">
+        <form action="/Admin/NhanVien/Them" method="post">
+            <section class="content-header">
+                <h1><i class="glyphicon glyphicon-user"></i> Thêm nhân viên mới</h1>
+                <div class="breadcrumb">
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <span class="glyphicon glyphicon-floppy-save"></span>Lưu
+                    </button>
+                    <a class="btn btn-primary btn-sm" href="/Admin/NhanVien/Index" role="button">
+                        <span class="glyphicon glyphicon-remove do_nos"></span>Thoát
+                    </a>
+                </div>
+            </section>
+            <!-- Main content -->
+            <section class="content">
+                @{
+                    if (Convert.ToString(ViewData["thongbao"]) == "Không được bỏ trống" || Convert.ToString(ViewData["thongbao"]) == "Thêm không thành công")
+                    {
+                        <div class="row">
+                            <div class="alert alert-error">
+                                @ViewData["thongbao"]
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            </div>
+                        </div>
+                    }
+                    if (Convert.ToString(ViewData["thongbao"]) == "Thêm thành công")
+                    {
+                        <div class="row">
+                            <div class="alert alert-success">
+                                @ViewData["thongbao"]
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            </div>
+                        </div>
+                    }
+                }
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box" id="view">
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6" style="padding-left: 0px;">
+                                            <div class="form-group">
+                                                <label>Tên nhân viên</label>
+                                                <input type="text" class="form-control" name="TenNV" style="width:100%" placeholder="Tên nhân viên">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" style="padding-right: 0px;">
+                                            <div class="form-group">
+                                                <label>Địa chỉ</label>
+                                                <input type="text" class="form-control" name="DiaChi" style="width:100%" placeholder="Địa chỉ nhân viên">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6" style="padding-left: 0px;">
+                                            <div class="form-group">
+                                                <label>Ngày vào làm </label>
+                                                <input type="date" class="form-control" name="NgayVL" style="width:100%" value="@DateTime.Now.Date.ToString("yyyy-MM-dd")">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" style="padding-right: 0px;">
+                                            <div class="form-group">
+                                                <label>Lương</label>
+                                                <input type="number" class="form-control" name="Luong" style="width:100%" placeholder="Lương nhân viên" value="0" min="0" max="1000000000" step="100000">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="col-md-5" style="padding-left: 0px;">
+                                            <div class="form-group">
+                                                <label>Số điện thoại</label>
+                                                <input type="text" class="form-control" name="SDT" style="width:100%" placeholder="SĐT nhân viên">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7" style="padding-right: 0px;">
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input type="text" class="form-control" name="Email" style="width:100%" placeholder="Email nhân viên">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6" style="padding-left: 0px;">
+                                            <div class="form-group">
+                                                <label>CMND</label>
+                                                <input type="text" class="form-control" name="CMND" style="width:100%" placeholder="CMND nhân viên">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6" style="padding-right: 0px;">
+                                            <div class="form-group">
+                                                <label>Loại Nhân viên</label>
+                                                <select name="LoaiNV" class="form-group" style="width:100%">
+                                                    <option value="">[--Chọn loại nhân viên--]</option>
+                                                    <option value="Quản lý">Quản lý</option>
+                                                    <option value="Tiếp tân">Tiếp tân</option>
+                                                    <option value="Bán hàng">Bán Hàng</option>
+                                                    <option value="Giao hàng">Giao hàng</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </div>

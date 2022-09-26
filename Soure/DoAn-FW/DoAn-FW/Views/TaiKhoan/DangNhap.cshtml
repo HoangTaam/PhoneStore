@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Đăng nhập";
+}
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/Home/Index">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="/SanPham/DTDD">Điện thoại</a>
+                    </li>
+                    <li><a href="/SanPham/MayTinhBang">Máy tính bảng</a></li>
+                    <li><a href="/TinTuc/DanhSachTinTuc">Tin tức</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End mainmenu area -->
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Đăng nhập</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page title area -->
+
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="single-sidebar">
+                    <h2 class="sidebar-title">Nhập thông tin</h2>
+                    <hr />
+                    @{ if (ViewBag.check != null)
+                        {
+                            <h3 class="alert alert-danger">@ViewBag.check</h3>
+                        }
+                    }
+                    <form action="/TaiKhoan/KTDangNhap" method="post" class="dangnhap">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email"
+                                   class="form-control"
+                                   id="email" name="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Mật khẩu:</label>
+                            <input type="password"
+                                   class="form-control"
+                                   id="pwd" name="pwd" />
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" /> ghi
+                                nhớ
+                            </label>
+                        </div>
+
+                        <input type="submit"
+                               value="Đăng nhập"
+                               class="btn btn-default" />
+                    </form>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

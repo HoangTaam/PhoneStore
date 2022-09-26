@@ -1,0 +1,144 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.HoaDonViewModel>
+@{ int pages = Convert.ToInt32(ViewData["pages"]); int p = Convert.ToInt32(ViewData["page"]);}
+<div class="content-wrapper" style="min-height: 639px;">
+    <section class="content">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3>25</h3>
+                        <p>Sản phẩm</p>
+                        <div class="icon">
+                            <i class="ion ion-bag"></i>
+                        </div>
+                    </div>
+                    <a href="/BH/SanPham/index" class="small-box-footer">Danh sách sản phẩm</a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3>2</h3>
+                        <p>Bài viết</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-android-chat "></i>
+                    </div>
+                    <a href="/BH/TinTuc/index" class="small-box-footer">Danh sách bài viết</a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3>13</h3>
+                        <p>Liên hệ</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-email"></i>
+                    </div>
+                    <a href="/BH/KhachHang/index" class="small-box-footer">Liên hệ khách hàng</a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3>33</h3>
+                        <p>Giao Hàng</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-cube"></i>
+                    </div>
+                    <a href="/BH/GiaoHang/index" class="small-box-footer">Tình trạng giao hàng</a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="fa fa-shopping-basket"> Danh sách đơn đặt hàng</h3>
+                        <div class="brcb">
+                            <form class="searchbox" action="/BH/BanHang/Index" method="get">
+                                <input type="text" placeholder="Search here" name="SearchString">
+                                <button type="submit" style="width: 50px; height: 25px; background-color: darkcyan; border-radius: 10px; color: white; border-color: white; "><i class="fas fa-search-location"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <div class="row" style="padding:0px; margin:0px; height: 500px;">
+                            <div class="table-responsive">
+                                <table class="table table-hover table-bordered" style="font-size: 0.9em;">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">Mã hóa đơn</th>
+                                            <th>Khách Hàng</th>
+                                            <th>Địa chỉ GH</th>
+                                            <th class="text-center">Tổng tiền</th>
+                                            <th>Ngày đặt</th>
+                                            <th class="text-center" colspan="2">Xử lý đơn</th>
+                                            <th class="text-center" colspan="2">Thao tác</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td class="text-center">@item.MaHD</td>
+                                                <td>@item.TenKH</td>
+                                                <td>@item.DiaChiGH</td>
+                                                <td class="text-center">@item.TongTienTT VNĐ</td>
+                                                <td>@item.NgayLapHD.Date.ToString("dd-MM-yyyy")</td>
+                                                <td style="text-align: center;">
+                                                    <a class="btn btn-default btn-xs" href="/BH/GiaoHang/DuyetHD?MAHD=@item.MaHD" onclick="return confirm('Xác nhận đơn đặt hàng và chuẩn bị giao hàng ?')" role="button">
+                                                        <i class="fa fa-check-square"></i> Duyệt đơn
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    @{var t = (Model.Count() == 1) ? (p - 1) : p;}
+                                                    <a class="btn btn-danger btn-xs" href="/BH/BanHang/HuyHD?MAHD=@item.MaHD&page=@t" onclick="return confirm('Xác nhận hủy đơn hàng này ?')">
+                                                        <i class="fa fa-trash"></i> Hủy đơn
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <a class="btn btn-info btn-xs" href="/BH/HoaDon/XemHD?ID=@item.MaHD" role="button">
+                                                        <span class="glyphicon glyphicon-eye-open"></span>Xem
+                                                    </a>
+                                                    <a class="btn bg-olive btn-xs" href="/BH/HoaDon/XemCTHD?ID=@item.MaHD" role="button">
+                                                        <i class="glyphicon glyphicon-eye-open"></i>CTHD
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="pull-right pagination">
+                    <form action="/BH/BanHang/Index" method="get">
+                        <input type="submit" value="Go to" /> page <input type="number" max="@pages" min="1" name="page" value="@p" /> of @pages
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

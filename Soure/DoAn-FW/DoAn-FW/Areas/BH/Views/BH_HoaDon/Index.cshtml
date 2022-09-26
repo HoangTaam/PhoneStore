@@ -1,0 +1,156 @@
+﻿@model IEnumerable<Web_projectframeword_admin.Models.HoaDonViewModel>
+@{ int pages = Convert.ToInt32(ViewData["pages"]); int p = Convert.ToInt32(ViewData["page"]);}
+<div class="content-wrapper" style="min-height: 639px;">
+    <section class="content-header">
+        <h1>
+            <i class="glyphicon glyphicon-ok-sign"></i>Danh sách hóa đơn
+        </h1>
+        <div class="breadcrumb">
+            <form class="searchbox" action="/BH/BH_HoaDon/Index" method="get">
+                <input type="text" placeholder="Search here" name="SearchString">
+                <button type="submit" style="width: 50px; height: 25px; background-color: darkcyan; border-radius: 10px; color: white; border-color: white; "><i class="fas fa-search-location"></i></button>
+            </form>
+            <a class="btn btn-primary btn-sm" href="/BH/BH_HoaDon/ThemHD" role="button">
+                <span class="glyphicon glyphicon-plus"></span>Thêm mới
+            </a>
+        </div>
+    </section>
+    <section class="content">
+        @if (Convert.ToString(ViewData["tb"]) == "Thêm hóa đơn thành công")
+        {
+            <div class="row">
+                <div class="alert alert-success">
+                    @ViewData["tb"]
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                </div>
+            </div>
+        }
+        @{
+            if (Convert.ToString(ViewData["trangthai"]) == "Xóa không thành công")
+            {
+                <div class="row">
+                    <div class="alert alert-error">
+                        @ViewData["trangthai"]
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    </div>
+                </div>
+            }
+            if (Convert.ToString(ViewData["trangthai"]) == "Xóa thành công")
+            {
+                <div class="row">
+                    <div class="alert alert-success">
+                        @ViewData["trangthai"]
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    </div>
+                </div>
+            }
+        }
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box" id="view">
+                    <div class="box-header with-border">
+                        <div class="box-body">
+                            <div class="row" style="padding:0px; margin:0px;">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Mã HĐ</th>
+                                                <th>Khách hàng</th>
+                                                <th>Tổng tiền</th>
+                                                <th>Ngày lập HD</th>
+                                                <th>Tình trạng</th>
+                                                <th class="text-center">Duyệt</th>
+                                                <th>Địa chỉ</th>
+                                                <th class="text-center" colspan="3">Thao tác</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int a = Convert.ToInt32(ViewData["ThongBao"]);
+                                                if (a == 1)
+                                                {
+                                                    <tr><td class="text-center" colspan="9">Không tìm thấy hóa đơn nào!</td></tr>
+                                                }
+                                                else
+                                                    foreach (var hd in Model)
+                                                    {
+                                                        <tr>
+                                                            <td class="text-center">@hd.MaHD</td>
+                                                            <td>@hd.TenKH</td>
+                                                            <td>@hd.TongTienTT</td>
+                                                            <td>@hd.NgayLapHD.Date.ToString("dd-MM-yyyy")</td>
+                                                            <td>
+                                                                @{
+                                                                    if (hd.TinhTrangTT == 0)
+                                                                    {
+                                                                        <span>Chưa thanh toán</span>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <span>Đã thanh toán</span>
+                                                                    }
+                                                                }
+                                                            </td>
+                                                            <td style="text-align: center;">
+                                                                @{
+                                                                    if (hd.TinhTrangHD == 0)
+                                                                    {
+                                                                        <a class="btn btn-default btn-xs" href="/BH/BH_GiaoHang/DuyetHD?MAHD=@hd.MaHD" onclick="return confirm('Xác nhận đơn hàng và chuẩn bị giao hàng ?')" role="button">
+                                                                            <i class="fa fa-check-square"></i> Duyệt đơn
+                                                                        </a>
+                                                                        <a class="btn btn-default btn-xs" href="/BH/BH_HoaDon/HuyHD?MAHD=@hd.MaHD&page=@p" onclick="return confirm('Xác nhận hủy đơn hàng ?')" role="button">
+                                                                            <i class="fa fa-window-close"></i> Hủy
+                                                                        </a>
+                                                                    }
+                                                                    else if (hd.TinhTrangHD == -1)
+                                                                    {
+                                                                        <span>Đã hủy</span>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <span>Đã duyệt</span>
+                                                                    }
+                                                                }
+                                                            </td>
+                                                            <td>@hd.DiaChiGH</td>
+                                                            <td class="text-center">
+                                                                <a class="btn btn-info btn-xs" href="/BH/BH_HoaDon/XemHD?ID=@hd.MaHD" role="button">
+                                                                    <span class="glyphicon glyphicon-eye-open"></span>Xem
+                                                                </a>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <a class="btn btn-info btn-xs" href="/BH/BH_HoaDon/XemCTHD?ID=@hd.MaHD" role="button">
+                                                                    <span class="glyphicon glyphicon-eye-open"></span>CTHD
+                                                                </a>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                @{var t = (Model.Count() == 1) ? (p - 1) : p;}
+                                                                <a class="btn btn-danger btn-xs" href="/BH/BH_HoaDon/Delete?MAHD=@hd.MaHD&page=@t" onclick="return confirm('Xác nhận xóa hóa đơn này ?')" role="button">
+                                                                    <span class="glyphicon glyphicon-trash"></span>Xóa
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="pull-right pagination">
+                    <form action="/BH/BH_Hoadon/Index" method="get">
+                        <input type="submit" value="Go to" /> page <input type="number" max="@pages" min="1" name="page" value="@p" /> of @pages
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
